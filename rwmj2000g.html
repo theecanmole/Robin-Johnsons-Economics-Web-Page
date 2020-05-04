@@ -1,0 +1,403 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="generator" content="Bluefish 1.0.7"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="R W M Johnson, research and development, agricultural economics, New Zealand, Assec00, Association of Economists, July 2000" lang="en-nz" />
+<link href="style.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="print.css" type="text/css" rel="stylesheet" media="print" />
+<title>Methodologies for Measuring the Accumulated Knowledge Base in R & D</title>
+</head>
+<body>
+<div id="TopLayer">
+<p class="nav">
+<a href="http://homepages.paradise.net.nz/johnso14/">Robin Johnsons economics webpage</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="Javascript:self.print()">Print this page</a></p></div>
+
+<h1>Methodologies for Measuring the Accumulated Knowledge Base in R &amp; D</h1> 
+
+<p class='center'>by</p>
+
+<p class='center'>Robin Johnson</p> 
+<p class='center'>Contributed paper for the Annual Conference of the New Zealand Association of 
+Economists, Wellington, July, 2000.</p>
+
+<h2>Introduction</h2>
+
+<p>Research yields results in terms of the sum of knowledge available to all possible 
+users. These may be other scientists or may be commercial entities which seek to 
+apply such knowledge for economic gain. It is convenient to visualise such 
+knowledge as a <q>pool</q> resource which has public good characteristics. It can be 
+drawn down without affecting the supply of the good as it is commonly in the 
+public domain, and it can only be privatised when private entities control the 
+provision of research or fund research and apply patents to any results 
+forthcoming. This paper is about the public pool of R &amp; D knowledge. The benefits 
+to other scientists is an interesting question but is not followed up here.</p>
+
+<p>The problem addressed in this paper is how to model the draw-down of research 
+knowledge into the real economy. It would be ideal if chunks of knowledge could 
+be identified and cast into a cost-benefit model. In fact, the pool of knowledge is 
+rather undifferentiated until it finds some practical use. The cost of obtaining 
+particular knowledge is lost in the overall process of research organisation. Given 
+this vagueness in research cost it is difficult to trace a direct line of cause and 
+effect from the costs to the benefits. This paper therefore examines:</p>
+<p>(a) whether stocks of research knowledge designated for particular sectors have 
+some relationship to changes in sectoral productivity in national income terms. At 
+this level of aggregation, particular pieces of research knowledge cannot be 
+identified and broad-brush association between cause and effect must be sought. 
+Designated research knowledge itself is not particularly precise as such a concept 
+is somewhat in conflict with the idea that research knowledge is a public good 
+without specific applications identified, and:</p>
+<p>(b) whether incremental additions to the stock of R &amp; D as represented by past 
+R &amp; D expenditure patterns have an effect on sectoral productivity. The effect of  
+previous expenditure on changes in productivity can be modelled as a system of 
+distributed lags. In effect, such a model can measure the uptake of research 
+knowledge as it is generated without involving the stock of knowledge concept. 
+While this hypothesis sounds the less plausible in modelling a public resource, it 
+does provide more logical explanations of the research/productivity relationship.</p>
+
+<h2>The Data</h2>
+  
+<p>Expenditure data on R &amp; D can be obtained from the surveys carried out by MoRST in 
+recent years and from Government records (MoRST var). This is available at a 
+national level and broken down into the main economic sectors (See Appendix).  
+National accounting data provides time series of economic investment, labour force 
+and net output on a sectoral basis (25 sectors in NZSNA) and hence provides estimates 
+of average total factor productivity (TFP) for each sector. Using a production function 
+approach, the adoption process can be incorporated in the analysis of productivity 
+change (Industry Commission 1995). This can take a number of forms. In this paper, 
+knowledge is first treated as a stock variable which grows and shrinks as information 
+is added to it or lost from it (Coe and Helpman 1993). Cost of knowledge is 
+represented by firm investment in R &amp; D, and depreciation is represented by knowledge 
+going out of date or being superseded (Griliches 1979, 1980). Thus the pool of 
+knowledge is valued at cost and not by what it potentially could generate in increased 
+returns. Secondly, the research process could be viewed as a continuous cost of 
+producing certain science-based goods (either through taxes paid or in-house 
+investment) that eventually pays off through better performance. Where such costs can 
+be identified, current levels of performance can be seen as a function of some 
+weighted combination of all previous annual expenditures on R &amp; D (Johnson and 
+Pazderka 1993). These flows can be treated econometrically to estimate an average 
+rate of return or cost-benefit ratio.</p>
+
+<p>It will be remembered that annual data for R &amp; D expenditure by firms and 
+government is the primary source of data. Previous results (Johnson 1999) were 
+based on the construction of <q>stock</q> variables using pre-determined depreciation 
+rates (5%). To more systematically understand which approach to take, stocks 
+were estimated for 5%, 10%, 20%, 30%, 40% and 50% depreciation rates. 
+Secondly, lagged values of previous expenditure on R &amp; D using polynomial 
+distributed lags (PDLs) were investigated for the same data using the Almon 
+formula (Almon 1965).</p> 
+
+<p>The general production function is Cobb-Douglas as follows:</p>
+
+<p class='it'>(1)&nbsp;		Y = K<sup>a</sup> L<sup>b</sup> R<sup>g</sup>  Z<sup>s</sup>,</p>   
+
+<p>where</p>		
+<p class='ind'><i>R</i> is the stock of knowledge capital; and</p>
+<p class='ind'><i>Z</i> is other factors affecting measured productivity beside Labour and Capital.</p>
+
+<p>In the production function approach, a log linear version of equation (1) is estimated 
+directly:</p>
+
+<p class='it'>(2)&nbsp;	     ln Y =  a ln K + b ln L + g ln R + s ln Z</p> 
+
+<p>In the two-step productivity approach, equation (2) would be rewritten as :</p>
+
+<p class='it'>(3)&nbsp;	      ln Y - a ln K - b ln L  =  TFP = g ln R + s ln Z</p>
+
+<p>In either case, estimates of the parameter g can be converted from an elasticity to an 
+overall rate of return dY/dR as given by:</p>
+
+<p class='it'>(4)&nbsp;		dY/dR = g (Y/R).</p>
+
+<p>For the depreciation model we are using the specification:</p>
+
+<p class='it'>(5)&nbsp;	TFP<sub>t</sub> = f( PV<sub>t-1</sub> , PU<sub>t-1</sub> , AUR<sub>t-1</sub> , EDU<sub>t-1</sub> )</p> 
+
+		<p class='it blocktext small'>(TFP = total factor productivity, PV = private stock of R&amp;D, PU = public 
+		stock of R&amp;D, AUR = Australian stock of R&amp;D, EDU = national expenditure 
+		on university education)</p>
+
+<p>The distributed lag model is based on the following specification:</p>
+
+<p class='it'>(6)&nbsp;	TFP<sub>t</sub> = f(  PVE <sub>t-1</sub> , PVE <sub>t-2</sub> , ........PVE <sub>t-15</sub>)</p>
+
+<p class='ind small it'>(PVE/PUE = annual private/public expenditure on R &amp; D)</p>
+ 
+<h2>Depreciation rates</h2>
+
+<p>Table 1 shows estimated elasticities (g) and resulting rates of return for the 
+agricultural (AG) and market (MK) sectors at different depreciation rates for 
+stocks of R &amp; D. This specification included Australian R &amp; D and educational 
+expenditure as independent variables (as in (3) and (5) above) and has the best 
+DW.</p>
+<table class='c3'>
+<tr><th colspan='9'>Table 1: TFP Results with varying Depreciation Rates</th></tr>
+
+<tr><td>&nbsp;</td><td colspan='2'>MKPV</td><td colspan='2'>MKPU </td><td colspan='2'>AGPV</td><td colspan='2'>AGPU</td></tr>
+<tr><td>Rate</td><td><i>g</i></td><td>$ror</td><td><i>g</i></td><td>$ror</td><td><i>g</i></td><td>$ror</td><td><i>g</i></td><td>$ror</td></tr>
+
+<tr><td>5%</td><td>.34</td><td>10.2</td><td>-.35</td><td>-4.4</td><td>2.59</td><td> 61</td><td>-2.32</td><td>- 6.2</td></tr>
+
+<tr><td>10%</td><td>.30</td><td>13.2</td><td>-.29</td><td>-5.3</td><td>2.28</td><td>86</td><td>-1.98</td><td>-7.8</td></tr>
+
+<tr><td>20%</td><td>.20</td><td>14.6</td><td>-.20</td><td>-6.2</td><td>1.61</td><td>100</td><td>-1.46</td><td>-9.6</td></tr>
+
+<tr><td>30%</td><td>.15</td><td>15.6</td><td>-.17</td><td>-7.5</td><td>1.28</td><td>111</td><td>-1.24</td><td>-11.6</td></tr>
+
+<tr><td>40%</td><td>.12</td><td>16.1</td><td>-.15</td><td>-8.5</td><td>1.08</td><td>120</td><td>-1.11</td><td>-13.5</td></tr>
+
+<tr><td>50%</td><td>.11</td><td>18.2</td><td>-.14</td><td>-9.8</td><td>0.95</td><td>128</td><td>-1.03</td><td>-15.3</td></tr>
+
+<tr><td>Annual</td><td>.07</td><td>22.4</td><td>-.07</td><td>-9.5</td><td>0.69</td><td>178</td><td>-0.65</td><td>-18.7</td></tr>
+
+<tr><td colspan='9'>( $ror = rate of return per $ of depreciated investment in R &amp; D at indicated rate)</td></tr>
+</table>
+
+
+<p>As was shown previously, total factor productivity was positively related to 
+private R &amp; D stocks and negatively related to public R &amp; D stocks in the market 
+economy (MK) and agriculture (AG) sectors. But as Table 1 shows, manipulation 
+of the depreciation rate is compensatory (at least for the two sectors shown). The 
+elasticity decreases as the depreciation rate rises until annual data takes over 
+completely (remember that 50% depreciation implies that most of the change in 
+TFP is <q>explained by</q> the previous years' investment in R &amp; D and only half the 
+stock of a year earlier and so on).</p>   
+
+<p>The rate of return on the investment in R &amp; D (as defined) is remarkably constant 
+across different depreciation rates. Immediate past investment dominates all the 
+results. The general pattern remains one of positive returns for private R &amp; D and 
+negative returns for public R &amp; D in the perpetual inventory specification implied. 
+The rates of return on private R &amp; D suggest large social returns to the previous 
+investment.</p>
+
+<h2>Polynomial distributed lags</h2>
+
+<p>Polynomial distributed lags (PDLs) provide smoothed coefficients determined by 
+fitting a polynomial function to past annual values of a predetermined number of 
+years of the independent variable. In this case the number of past years was set at 
+16. The current value of the independent variable is dropped as the specification 
+requires. Other possible influential variables are not included so all possible gains 
+are attributed to successive values of the one independent variable as in (6). 
+Private and public R &amp; D equations are estimated separately for the market (MK) 
+and agriculture (AG) sectors (Table 2).</p>
+<table class='c3'>
+<tr><th colspan='9'>Table 2: Estimated lag system for R &amp; D investment</th></tr>
+
+<tr>
+<td>Lag</td><td colspan='2'>MKPVE</td><td colspan='2'>MKPUE</td><td colspan='2'>AGPVE</td><td colspan='2'>AGPUE</td>
+</tr>
+<tr>
+<td>&nbsp;</td> <td>g</td>	<td>$ror</td><td>g</td>	<td>$ror</td><td>g</td>	<td>$ror</td><td>g</td>	<td>$ror</td>
+</tr>
+<tr>
+<td>-1</td>	<td>-.001</td>	 <td>-0.1</td><td>.130</td><td>1.2</td>		<td>.147</td>	<td>2.5</td><td>.459</td>	 <td>0.9</td>
+</tr>
+<tr>
+<td>-2</td>	<td>-.026</td>	 <td>-0.6</td><td>.045</td><td>0.4</td>		<td>.114</td>	<td>2.0</td><td>.207</td>	 <td>0.4</td>
+</tr>
+<tr>
+<td>-3</td>	<td>-.040</td>	 <td>-0.9</td><td>-.014</td><td>-0.1</td>		<td>.088</td>	<td>1.5</td><td>.029</td>	 <td>0.1</td>
+</tr>
+<tr>
+<td>-4</td>	<td>-.044</td>	 <td>-1.0</td><td>-.051</td><td>-0.5</td>		<td>.070</td>	<td>1.2</td><td>-.085</td>	<td>-0.2</td>
+</tr>
+<tr>
+<td>-5</td>	<td>-.040</td>	 <td>-0.9</td><td>-.068</td><td>-0.6</td>		<td>.058</td>	<td>1.0</td><td>-.145</td>	<td>-0.3</td>
+</tr>
+<tr>
+<td>-6</td>	<td>-.030</td>	 <td>-0.7</td><td>-.070</td><td>-0.6</td>		<td>.052</td>	<td>0.9</td><td>-.160</td>	<td>-0.3</td>
+</tr>
+<tr>
+<td>-7</td>	<td>-.016</td>	 <td>-0.3</td><td>-.059</td><td>-0.5</td>		<td>.049</td>	<td>0.8</td><td>-.140</td>	<td>-0.3</td>
+</tr>
+<tr>
+<td>-8</td>	 <td>.001</td>	 <td>0.1</td><td>-.040</td><td>-0.4</td>		<td>.049</td>	<td>0.8</td><td>-.094</td>	<td>-0.2</td>
+</tr>
+<tr>
+<td>-9</td>	 <td>.018</td>	 <td>0.4</td><td>-.016</td><td>-0.1</td>		<td>.050</td>	<td>0.9</td><td>-.034</td>	<td>-0.1</td>
+</tr>
+<tr>
+<td>-10</td> <td>.035</td>	 <td>0.8</td> <td>.010</td><td>0.1</td>		<td>.052</td>	<td>0.9</td><td>.032</td>	 <td>0.1</td>
+</tr>
+<tr>
+<td>-11</td> <td>.048</td>	 <td>1.1</td> <td>.034</td><td>0.3</td>		<td>.053</td>	<td>0.9</td><td>.094</td>	 <td>0.2</td>
+</tr>
+<tr>
+<td>-12</td> <td>.056</td>	 <td>1.2</td> <td>.052</td><td>0.5</td>		<td>.051</td>	<td>0.9</td><td>.143</td>	 <td>0.3</td>
+</tr>
+<tr>
+<td>-13</td> <td>.057</td>	 <td>1.2</td> <td>.061</td><td>0.5</td>		<td>.046</td>	<td>0.8</td><td>.167</td>	 <td>0.3</td>
+</tr>
+<tr>
+<td>-14</td> <td>.049</td>	 <td>1.1</td> <td>.058</td><td>0.5</td>		<td>.037</td>	<td>0.6</td><td>.158</td>	 <td>0.3</td>
+</tr>
+<tr>
+<td>-15</td> <td>.031</td>	 <td>0.7</td> <td>.039</td><td>0.4</td>		<td>.022</td>	<td>0.4</td><td>.105</td>	 <td>0.2</td>
+</tr>
+<tr>
+<td>Sums</td><td>.096</td><td>2.1</td>	<td>0.112</td><td>1.1</td><td>0.940</td><td>16.1</td>	<td>0.736</td> <td>1.4</td>
+</tr>
+<tr>
+<td>Turning<br/> points</td><td>4, 13</td><td>&nbsp;</td><td>6, 13</td><td>&nbsp;</td><td>6, 12</td><td>&nbsp;</td><td>6, 13</td>
+<td>&nbsp;</td></tr>
+</table>
+
+<p>As these regressions are multifactorial, each coefficient is an estimate of the 
+elasticity with regard to that time lag. The sum of the coefficients gives the 
+average elasticity with respect to R &amp; D. In all cases, the sum is positive and looks 
+as though it will stay positive though diminishing quickly as extra years are 
+included. Contrary to previous results, therefore, the  return to public R &amp; D 
+expenditure is now positive if the longer term is taken into account. There is also a 
+distinct short term benefit apparent in three cases. <i>Thus the pattern of build-up and 
+use of a stock of knowledge may not follow any particular perpetual inventory 
+rules</i>. These results show that in each case the return function is not monotonic, 
+and hence two turning points appear. In this case, the mean lag estimation cannot 
+be relied upon.</p> 
+
+<p>Negative returns can be interpreted as delays in the production process following 
+new expenditure on R &amp; D. On average, the delays appear to be of the order of 4-6 
+years before production responds, and the peak response is reached after 11-13 
+years. This compares with Scobie and Eveleen's (1986) estimate of 11 years for 
+the agriculture sector for the period 1920-1980.</p>              
+
+<p>Table 3 shows the sum of the elasticity coefficients for annual expenditures on 
+R &amp; D in eight sectors and the total market economy examined in this project (the 
+services sector has no separate identifiable R &amp; D):</p>
+<table class='c2'>
+<tr><th colspan='5'>Table 3: All sectors PDL structure</th></tr>
+<tr><td colspan='5'>&nbsp;</th></tr>
+<td class='l'>Sector</td><td colspan='2'>Private R &amp; D</td><td colspan='2'>Public R &amp; D</td>
+</tr>
+<tr><td>&nbsp;</td><td>sum of <i>g</i></td><td>$ror</td><td>sum of <i>g</i></td><td>$ror</td></tr>
+<tr><td class='l'>Agriculture</td><td>0.940</td><td>16.2</td><td>0.736</td><td>1.4</td></tr>
+<tr><td class='l'>Fishing</td><td>0.939</td><td>14.2</td><td>0.506</td><td>0.3</td></tr>
+<tr><td class='l'>Forestry</td><td>0.821</td><td>15.1</td><td>-0.632</td><td>	-1.1</td></tr>
+<tr><td class='l'>Processing</td><td>0.408</td><td>3.1</td><td>0.256</td><td>3.7</td></tr>
+<tr><td class='l'>Manufacturing</td><td>0.195</td><td>2.0</td><td>-0.201</td><td>-3.0</td></tr>
+<tr><td class='l'>Energy</td><td>0.355</td><td>7.3</td><td>0.197</td><td>1.7</td></tr>
+<tr><td class='l'>Building</td><td>0.837</td><td>62.5</td><td>0.258</td><td>10.2</td></tr>
+<tr><td class='l'>Transport</td><td>0.339</td><td>25.2</td><td>-0.187</td><td>-9.0</td></tr>
+<tr><td colspan='5'>&nbsp;</td></tr>
+<tr><td class='l'>Market economy</td><td>0.096</td><td>2.1</td><td>0.112</td><td>1.0</td></tr>
+</table>
+
+<p>In most cases a positive long-term return is obtained. The exceptions are public 
+R &amp; D in the forestry, manufacturing and transport sectors. The magnitude of the 
+rate of return estimate has to be interpreted as a social dividend to previous 
+research undertaken by private and public agencies. It is not an internal rate of 
+return which would have to take account of the lags in the response times. Scobie 
+and Eveleens quote an internal rate of return for agriculture of 30 per cent. These 
+results suggest higher internal rates of return than this in some sectors. The sectors 
+with negative returns are characterised by long waits for positive results to be 
+apparent.</p>
+
+<p>These results also confirm that the turning points are fairly uniform across sectors at 4-
+6 years in the medium term and 12-13 years in the longer term. Since these results are 
+so uniform it is likely that there is a common driving force behind the equations - this 
+appears to be the link of private R &amp; D expenditure to GDP. On the other hand, the 
+elasticities are also determined by changes in sectoral GDP which in some sectors is 
+very different from the aggregate.</p>
+
+<p>The overall result shows that total national expenditure on R &amp; D in the private sector 
+returns to the nation $2 for every $ spent. Owing to the delays in reaching a positive 
+result, this is equivalent to an internal return of 2.1%! This is much lower than the 
+return suggested by the stock method. For the public sector, the average return is only 
+$1 for every $ spent. Public expenditure on science is only just recovered in gdp terms. 
+This is equivalent to a 0.1% internal rate of return, but is not negative as the stock 
+results indicated. These overall results tend to confirm earlier suspicions that the 
+respective rates of return to private and public expenditure were out of balance in TFP 
+terms in the past, and that total returns on R &amp; D investment are relatively 
+disappointing.</p>
+
+<h2>Implications</h2>
+
+<p>We started with the hypothesis that research knowledge is a pool resource with public 
+good properties. The process of utilisation of this resource was modelled along 
+conventional lines by treating the accumulation of knowledge as a capital stock valued 
+at cost and subject to some rate of obsolescence. We tested different rates of 
+obsolescence (depreciation) of the stock thus created and found little differentiation in 
+the results both for sign of the response and the rate of return on capital. Returns to 
+private R &amp; D were all positive and returns to public R &amp; D were all negative. 
+Alternatively, the additions to the stock of research knowledge were modelled in a 
+distributed lag framework where delays in uptake could be identified. A definite 
+pattern emerged of 4-5 year delays in private R &amp; D and 12-13 years in public R &amp; D. 
+Both responses were positive in the longer run.</p>
+
+<p>These results demonstrate that modelling a pool resource like scientific knowledge is 
+fraught with difficulties and that the literature and methodologies on the subject have 
+not yet reached a fully satisfactory level. It may be too difficult in the aggregate data 
+available at the sector level but some progress might be made at the individual 
+application level where the cost of the research and resulting benefits can be readily 
+identified. Even this approach does not account for spillovers from the pool from one 
+sector to another, nor the benefits of knowledge gained to other scientists. There are 
+also international spillovers to be considered as the <q>pool</q> has always been a global 
+one and the benefits available to all those who wish to find them.</p>
+
+<p>There are also questions about the quality of data available. The series on public 
+expenditure on R &amp; D is faithfully recorded back to the 1960s by NRAC and the 
+government departments. It may be sub-divided quite accurately for the major 
+economic sectors supported by R &amp; D effort at the time. There is no equivalent R &amp; D 
+data for the private sector except for the MoRST series since 1989. The data used in 
+this analysis relies heavily on an extrapolation based on shares of national income. 
+This imparts a similarity to the sector data on private R &amp; D that runs throughout this 
+analysis. Even so, sectoral TFP statistics exhibit quite different behaviours in response 
+to a variable based on this definition of their R &amp; D efforts.</p>
+
+<p>Members of the audience might like to suggest further hypotheses and specifications 
+for future research!</p>
+
+<h2>References</h2>      
+
+<p>Almon, S. (1965),  The Distributed Lag Between Capital Appropriations and Expenditures, 
+	<i>Econometrica 33</i>, 178-196.</p>
+
+<i>Coe, D. and Helpman, E. (1993),  International R &amp; D Spillovers, <i>IMF Working Paper no 84</i>, 
+Washington.</i>
+
+<p>Griliches, Z. (1979),  Issues in Assessing the Contribution of Research and Development on 
+Productivity Growth, <i>Bell Journal of Economics 10</i>, 92-116.</p>
+
+<p>Griliches, Z. (1980),  R &amp; D and the Productivity Slowdown, <i>American Economic Review 70</i>, 
+343-348.</p>
+
+<p>Johnson, L. and Pazderka, B. (1993),  Firm Value and Investment in R &amp; D, <i>Managerial and 
+Decision Economics 14</i>, 15-24.</p>
+
+<p>Johnson, R.W.M. (1999),  The Rate of Return to New Zealand Research and Development 
+Investment, New Zealand Association of Economists Annual Conference, Rotorua.</p>
+
+<p>Industry Commission (1995),  <i>Research and Development</i>, Report No 44, Volume III: 
+Appendix, AGPS, Canberra.</p>
+
+<p>Ministry of Science, Research and Technology (1990-98), <i>NZ Research and Development 
+Statistics: All Sectors</i>, Wellington.</p>
+
+<p>Scobie G. and Eveleens W. (1986),  <i>Agricultural Research: What's it Worth?</i>, Ministry 
+of Agriculture, Hamilton.</p>       
+<p>&nbsp;</p>
+<h3>Appendix: Sectoral Data Available</h3>
+
+<p>In combination with the productive sectors recognised in the MoRST surveys, the 
+Yearbook records of R &amp; D expenditure determine the number of sectors which can be 
+analysed for the whole period of the analysis. As the productivity data is presented on 
+a national accounting basis (NZSNA), the following schema shows the sectors 
+analysed:</p>
+<table class='c5'>
+<tr class='und'><th width ='50%'>Research sector</th><th width ='50%'>NZSNA sector</th></tr>
+<tr class='und'><td>Agriculture</td><td>Agriculture</td></tr>
+<tr class='und'><td>Fishing</td><td>Fishing</td></tr>
+<tr class='und'><td>Forestry</td><td>Forestry</td></tr>
+<tr class='und'><td>Processing</td><td>Food, Wood, Paper,Textiles</td></tr>
+<tr class='und'><td>Manufacturing</td><td>Mining, Basic Metal, Chemicals, Non-Metallics, Machinery</td>
+</tr>			
+<tr class='und'><td>Energy</td> <td>Electricity, Gas and Water</td></tr>
+<tr class='und'><td>Building</td><td>Building and Construction</td></tr>
+<tr class='und'><td>Transport</td><td>Transport and Storage</td></tr>
+<tr class='und'><td>Services</td><td>Trade, Communications, Finance Community Services</td></tr>
+<tr class='und'><td>Total Market Economy</td>
+<td>Production sector (Ownership of Occupied Dwellings and Government are excluded)</td></tr>
+</table>
+</body>
+</html>

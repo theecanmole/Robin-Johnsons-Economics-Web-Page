@@ -1,0 +1,877 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="generator" content="Bluefish 1.0.7"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="R W M Johnson, research and development, agricultural economics, New Zealand" lang="en-nz" />
+<link href="style.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="print.css" type="text/css" rel="stylesheet" media="print" />
+<title>Making the ANZSIC work for Economics</title>
+</head>
+
+<body>
+<div id="TopLayer">
+<p class="nav">
+<a href="http://homepages.paradise.net.nz/johnso14/">Robin Johnsons economics webpage</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="Javascript:self.print()">Print this page</a></p></div>
+<h1>Making the ANZSIC work for Economics</h1>
+
+<p class='center'> by</p>
+
+<p class='by'>Robin Johnson<a class='f' href="#_ftn1" name="_ftnref1" title=""><sup>1</sup></a></p>
+
+<p class='abstract'>Statistics New Zealand adopted the Australian and New Zealand 
+Standard Industrial Classification in 1993 replacing the NZSIC previously in vogue. 
+A number of key sectors of the economy are affected by the changes in definition in a way that
+makes all new data sets lack compatibility with those that went before. This is
+particularly the case with the Philpott collection where the industrial
+classification was all NZSIC. Since 1993 Real GDP, Labour Employment and Gross
+Capital Investment have all been on a ANZSIC basis. This paper discusses the
+problems that were created by the somewhat arbitrary changes that were made and
+suggests a methodology of overcoming the matching problem. R&amp;D statistics
+collected by MoRST are also classified by the NZSIC system. The paper concludes
+with a discussion of the standardisation of R&amp;D statistics to the different
+industrial classifications.</p>
+
+
+<p>Economists are heavily reliant on the
+statistical data sources which describe the economy. There is an inherent trust
+that the materials have been put together in an objective and scientific
+manner. In the industrial classification area, the main disaggregation takes
+place for industry by industry analysis. Furthermore the continuing series of
+statistics provides the time series for most of the econometric testing of
+economic models. The Philpott series of data sets is a good illustration of
+productive use that many of these industry by industry collections have been
+put. The problem with the Australian and New Zealand Standard Industrial
+Classification (ANZSIC) is that it puts a discontinuity in the time series of
+all statistical collections that rely on the industry classification.</p>
+
+<p>ANZSIC was producd by the Australian
+Bureau of Statistics and the New Zealand Department of Statistics for use in
+the collection and publication of statistics in the two countries. The
+development of the ANZSIC resulted from the need to improve comparability of
+industry statistics for the two countries. International comparability was
+enhanced by aligning the ANZSIC with the International Standard Industrial
+Classification of All Economic Activities (ISIC), Revision 3, where possible.
+Users of industry statistics in both countries have been widely consulted in
+the development of the ANZSIC. In preparing the classification considerable
+effort has gone into reaching a suitable balance between maintaining historic
+comparability and keeping pace with changes in technology and in the business
+environment (Preface to the ANZSIC 1993 classification).</p>
+
+<p>This paper is about maintaining historic
+comparability in the output, capital and labour employment series on an
+industry basis. The series actually reviewed are the Real Gross Domestic
+Product estimates on a 1995-96 price base, Full and Part Time Employment, and
+Gross Fixed Capital Formation. The capital stocks data employed by Prof
+Philpott was derived by him from the NZSIC gross capital formation series and
+hence is not an official series (though one has since been published by
+Statistics New Zealand). 
+We therefore examine the two sets available and see where they can be amalgamated or modified. 
+We produce a new set of real GDP data back to 1960 compatible with ANZSIC. We examine full time employment
+statistics and their availability and we construct compatible capital formation
+and capital stock data for the period 1987-2000. We end with a brief discussion
+of industry classification in the MoRST survey of R&amp;D expenditure since
+1989.</p>
+
+<h2>Real Gross Domestic Product</h2>
+
+<p>The 1995-96 revision of the Statistics Real
+GDP Series involved not only changes to the base year prices, but the
+introduction of chain-linking price valuations and a change in the industrial
+classification of industries employed (ANZSIC) using SNA93 methodology. All these changes make linking the new
+estimates to old estimates produced by Statistics extremely difficult on a consistent basis. 
+The well-known Philpott tables (1994, 1999) were based on the Statistics data using the old
+classification system (NZSIC) for sectors and on the UNSNA system dated 1968.
+Statistics produced several years of the accounts for overlapping years
+(1986-96) and according to Haugh (2001) were going to extend the new series
+back to years previous to 1986.</p>
+
+<p>In this section I try to identify where the most important changes 
+took place and construct a model for revising the Philpott series to be
+consistent with the 1995-96 price-based ANZSIC revision. I first assess 
+the recalibration work done by Haugh (2001) at Treasury.</p>
+
+<h2>Haugh's Observations</h2>
+
+<p>Statistics New Zealand (SNZ) released upgraded national accounts at the end of 2000 and in mid 2001. These introduced a number of important
+changes, including moving from a fixed weight to a chain linked calculation of
+constant price data and the introduction of SNA<a class='f' href="#_ftn2" name="_ftnref2" title=""><sup>2</sup></a> 93 and ANZSIC definitions and
+classifications. In what follows, these series are referred to as fixed and chain series respectively.</p>
+
+<p>The new SNA 93 ANZSIC chain series are New Zealand's official data series and replace the previous official
+series, which was based on SNA 68 NZSIC fixed weights data. The new chain
+series for production sectors is available from the June <u>quarter</u> of 1987
+onwards. The fixed series for production sectors is available from September 1977 and the fixed expenditure
+series from June 1982. SNZ intend to eventually back date the chain series to the same beginning dates as the fixed
+series but no deadline for this has been set.</p>
+
+<p>On the production side<a class='f' href="#_ftn3" name="_ftnref3" title=""><sup>3</sup></a>, the type and level of disaggregation of the chain and fixed series
+are very similar to that previously provided; i.e. 27 (fixed) and 28 (chain)
+industry categories including categories such as agriculture, fishing,
+forestry, etc. The chain series has a greater level of disaggregation than the
+fixed series with finance and insurance now split out from real estate and business services.</p>
+
+<p>A search for annual GDP data and non-official data also revealed a number of 
+potentially useful series. These include the Philpott (1994, 1999)
+annual production GDP series that runs from 1960 to 1998 and the Reserve Bank
+of New Zealand's (RBNZ) (2001) quarterly expenditure GDP that begins in 1965.</p>
+<p>However, in this paper we focus on <u>quarterly data from 1977</u> for several reasons. Quarterly data enable a more precise dating of the timing of any changes in the characteristics of growth and cycles that may have occurred. Furthermore, we want to minimise the chances
+that changes in data construction methods will obscure any real change in the
+underlying series. Data available from 1977:3 have been consistently derived on an SNA basis.</p>
+
+<h2>Industry Classification</h2>
+
+<p>At a broad level, the industry classifications of the fixed and chain series are similar, but there are some
+differences. Therefore, in order to create as comparable fixed and chain series as possible from an industry
+classification perspective, a number of transformations were made. </p>
+
+<p>The level of aggregation and classification across the fixed and chain datasets differs in some cases. 
+<i>Finance, insurance, business services and real estate</i> is one category in the 
+fixed data but is split into <i>Finance and insurance</i> and <i>Real estate and business services</i> in the chain
+series. <i>Government and community services</i>, have different classifications in the chain and fixed
+series. For example, in the fixed series <i>Community services</i> were classified by provider, i.e. private,
+central government and local government. In the chain series they are classified by industry, regardless of
+whether the service provider is market or non-market. In order to create comparable categories some industries have
+been combined into larger categories.</p><p>For example, the chain <i>Finance, insurance and business services and
+real estate</i> series have been summed to create a combined category for
+comparability with the fixed series, which is only available at this higher
+level of aggregation.</p>
+
+<p>In some cases similarly labelled series, e.g. <i>Other manufacturing</i>, 
+are measuring different things in the fixed and chain series because 
+they are combinations of different industries under ANZSIC compared to NZSIC. 
+<i>Furniture manufacturing</i> has moved from <i>Wood products manufacturing</i> to <i>Other
+manufacturing</i>. In three cases, <i>Other manufacturing</i>, 
+<i>Wood products manufacturing</i> and <i>Basic metals
+manufacturing</i>, a conversion concordance from NZSIC to ANZSIC was used to
+create fixed ANZSIC series for comparison with the chain ANZSIC series. 
+For example, 75% of the old NZSIC <i>Wood products manufacturing</i> industry 
+and 50% of the old NZSIC <i>Pulp and paper</i>
+industry have shifted to the new ANZSIC <i>Wood and paper products
+manufacturing</i> category. A very approximate fixed weight 
+<i>Wood and paper products manufacturing</i> ANZSIC series was created 
+by summing 50% of the NZSIC <i>Pulp and paper</i> industry and 75% of the 
+NZSIC <i>Wood products manufacturing</i> industry. 
+These derived fixed weight ANZSIC series have higher correlations with their chain ANZSIC series counterparts than the
+original fixed NZSIC series. For example, for <i>Wood and paper products manufacturing</i> the correlation for first
+differences of the logs of the series rises from 0.55 to 0.88.</p>
+
+<p>Wholesale trade <i>Retail trade</i> and <i>Accommodation
+&amp; restaurants</i> data are available on a similar basis in both data sets
+but the sub-industries <i>Retail trade</i> and <i>Accommodation &amp; restaurants</i>
+are only available from June 1986 so these have been combined with <i>Wholesale
+trade</i> to make a combined category comparable with wholesale trade from
+September 1977 to March 1986.</p>
+
+<h2>Characteristics of the data and a comparison of the fixed and chain series</h2>
+
+<p>The calibration method uses the relationship between the growth rates 
+(more specifically the first differences of the logs) of the seasonally adjusted 
+chain and fixed volume [quarterly] series. The growth rates as opposed to
+the levels are used because the growth rates appear to be stationary while the
+levels are not. Visual inspection of the growth rate data indicates that in particular 
+they fluctuate around a long run constant mean with stable variance although they may 
+move from local mean to local mean within the business cycle. The Phillips-Peron test also indicated that all the growth series (both
+fixed and chain) were stationary apart from owner occupied dwellings for both
+the fixed and chain series, which show some short-term trending behaviour.</p>
+
+<p>The chain and fixed series growth rates were compared by industry in two ways.
+The first method was to compare the mean and standard deviation of the <u>quarterly
+growth rates</u> for the period June 1987 to June 2000 for which there was
+common data. The second method of comparison was to construct both scatter and time series plots of the growth
+rates of the chain and fixed series by industry to examine how well the two
+series were related and how time affected the relationship if at all.</p>
+
+<p>Figure 1 shows the difference between the mean <u>quarterly</u> growth rates 
+for the chain and fixed series by industry. Figure 2 shows the
+difference between the standard deviation of the quarterly growth rate for the
+chain and fixed series by industry over the period 1987 to 2000.</p>
+
+<p>Figure 1: Chain minus Fixed Mean Quarterly Growth Rates 1987 to 2000</p>
+<img src="r04ef1.png" width="90%" height="90%" alt="Figure 1" align="middle">
+<p>Figure 2: Chain minus Fixed standard deviation for the period 1987 to 2000</p>
+
+<p>The comparison of mean growth rates shown in Figure 1 illustrates that the mean growth rates for total
+production GDP are very similar. The mean growth rate for the chain series is
+only 0.04 percentage points higher than the fixed series. By industry, the range is from 0.6
+percentage points for <i>Other manufacturing</i> to 0.4 percentage points for <i>Wood
+and paper manufacturing</i> (chain- fixed).</p>
+<p>As noted above the <i>Other manufacturing</i> and <i>Wood product
+manufacturing</i> series have been affected by new industry definitions, which
+have resulted in <i>Furniture manufacturing</i> moving from <i>Wood and paper
+product manufacturing</i> to <i>Other manufacturing</i>, and <i>Pulp and paper</i>
+moving from <i>Printing, publishing, pulp and paper</i> to <i>Wood and paper
+manufacturing</i>. For 23 out of the 29 industries including the 5 main sectors, the quarterly growth means for the
+chain and fixed weight series are within +/-0.2 percentage points of each
+other. </p>
+
+<p>Using visual examination of the time series plots, the industries and total GDP were
+divided into 3 broad categories: (1) chain and fixed series that are noticeably different over the
+whole period (September 1987 to June 2000); (2) chain and fixed series that are
+very similar over the first half of the period but the relationship is less
+clear in the second half; and (3) series where the relationship between the
+chain and fixed series is very similar for the whole period.</p>
+
+<p>There are only two small industries in category (1), <i>Mining</i> and <i>other manufacturing</i>. The upgrade of the national accounts has led
+to significant changes in these series and even after correcting for ANZSIC
+changes in <i>Other manufacturing</i> the relationship between the 2 series is
+more diffuse than for other industries. The calibrated results for these two industries should therefore be
+treated with more caution than for other industries.</p>
+
+<p>The industries in category (2) might contain a <u>structural break</u> 
+in the relationship between the chain and the fixed series because in some 
+cases SNZ have used a method for calculating the series from the June 1994 
+quarter that differs from the method used prior to this date. For example, sub-component
+volume indexes for some industries, e.g. meat and dairy volume indexes for the <i>Primary
+food manufacturing</i> industry have been calculated using updated 1996
+commodity weights but the new weights have only been used from June 1994
+onwards. In other manufacturing industries, ANZSIC producer prices have been
+used in deflation from June 1994, but weighted NZSIC producer prices were used
+prior to this date. Any changes in the methodology affecting the price indexes used in deflation could flow through to
+the constant price series. In other cases for example, <i>Wholesale trade</i>, <i>Retail trade</i> and <i>Accommodation,
+cafes and restaurants</i> calculations are performed with a finer level of
+detail than previously but the changes have only been backdated to June 1994. 
+Prior to 1994 these series are linked to weighted proportions of old NZSIC sub-component series.</p>
+
+<h2>Structural Breaks</h2>
+
+<p>At the 5% level of significance the null hypothesis of no structural break was only rejected for <i>Combined wholesale trade</i>; <i>Electricity, gas and water</i>; <i>Forestry</i>; <i>Owner
+occupied dwellings</i>; and <i>Other food manufacturing</i>. For the first two industries there is also
+clear visual evidence of a structural break, with the relationship becoming
+more diffuse in the second half of the data.</p>
+
+<p>Statistics New Zealand have calculated these industries with different
+weights and/or a finer level of detail than previously but only made these
+changes to the series back to June 1994.</p>
+<p>As these changes will not be made to the series prior to June 1987 either,
+the relationship between the fixed and chain series for these two industries is
+best captured by estimating the relationship for the period June 1987 to March
+1994 only.</p>
+
+<p>Haugh offers correction factors for the <i>Wood, Paper, Printing, &amp;
+Other Manufacturing</i> sectors based on splits/concordances (derived I presume
+from Stats before and after [quarterly?} tables) as to how they were classified
+before and after SNA 93 and ANZSIC. He also has a split for <i>Basic Metals and
+Machinery</i>. I have applied these to the Philpott series in 1987-88 and
+produced plausible substitutes that are price consistent with the overall
+change in prices between the data based on 1982-83 prices and that based on
+1995-96 prices. <i>Wholesale Trade</i>, and <i>Finance and Insurance</i>, are
+amalgamated by Haugh and thus satisfy his tests. As Philpott used this
+aggregation in his series (and has not recorded the individual components) this
+overcomes any problems for our conversion. Finally, <i>Government Services</i>
+and <i>Personal Services</i> show unusual price changes between the two bases
+which suggest the content or the methodology has been changed between the two
+revisions (discussed below).</p>
+
+<h2>Building the model</h2>
+
+<p>I propose to use the Haugh conversion factors where they apply and check these 
+against the before and after <u>annual</u> estimates for 1987-88 at 1995-96 prices. 
+Statistics (Nick Treadgold) inform me that for <i>Communications</i> and <i>O-O Dwellings</i> 
+there are no changes between ANZSIC and NZSIC definitions. Small changes made were 
+due to the re-estimation of the consumption of fixed capital and the capitalisation 
+of computer software in the former.</p>
+
+<p>For <i>Government</i>, there were significant differences.between ANZSIC and NZSIC. 
+While <i>Local Government</i> was unchanged, education and health components of 
+<i>Central Government</i> were moved into <i>Personal Services</i>. 
+<i>Personal Services</i> also have a number of other changes which 
+increase the differences slightly.</p>
+
+<p>From these comparisions I have constructed the following adjustments to the Philpott
+industry categories in 1987-88 as in Box 1.</p>
+
+<div class="c5">
+<p class='by'> Box 1: Concordance Factors for Real GDP in 1987-88 </p>
+
+<p>I. Assume 30% of <i>Wood and Wood Products</i> is <i>Furniture</i> (rest
+combines with balance of <i>Paper Products</i> to form <i>Wood and Paper Product Manufacturing</i>).</p>
+
+<p>II. Assume 54% of <i>Paper Products, Printing &amp; Publishing</i> is <i>Printing
+and Publishing</i> (balance to <i>Wood and Paper Product Manufacturing</i>).</p>
+
+<p>III. Asume 30% of <i>Machinery &amp; Metal
+Products</i> is <i>Fabricated Metal Products</i> and add to <i>Basic Metal
+Product Manufacturing</i> (balance is <i>Machinery and Equipment</i>).</p>
+
+<p>IV Add <i>Furniture</i> to <i>Other</i></p>
+
+<p>V. Maintain <i>Finance, Insurance, Property and Business Services</i> as an
+aggregate</p>
+
+<p>VI. Assume <i>Government (Central and Local)</i> is 34% of combined total of
+<i>Government</i> and <i>Personal Services</i> (the ratio in 1987-88).</p>
+
+<p>VII. All other industries assumed to be defined approximately the same in both classifications.</p>
+</div>
+
+<p>These are percentage ratios and can be applied to Philpott's data
+still expressed in 1982-83 prices. Philpott's industry classification now
+becomes ANZSIC based.</p>
+
+<h2>Comment</h2>
+
+<p>This all assumes that these concordance
+ratios hold constant back thru time. We want to go back to 1960. By taking
+1987-88 proportions we preserve any trend shown in the Philpott data but the
+absolute amounts would be increasingly distorted for the industries concerned
+the further we go back. As an alternative I could suggest that we simply weld
+the Philpott data to the ANZSIC data base (as I have done previously) by
+matching the old data to the new data at a common year. This would preserve the
+trend in the old data but the absolutes would still have less meaning compared
+with the ANZSIC-adjusted framework. </p>
+
+<p>Finally we need to think about the base
+year prices of the restored series. It would be convenient to bring the past
+data into 1995-96 prices as far as the present chain-linked series is
+concerned; but how long will Statistics stay with this price base? For some
+purposes, it will be necessary to continue the old series at 1982-83 prices. I
+have re-worked the implicit price comparisions between the 82-83 base and the
+95-96 base by industries when the above corrections are taken into account. A
+full chain linked series back to 1960 will have to wait until the Statistics
+revisions are finished.</p>
+
+<p>File <i>87/88 comparisions GDP</i> contains:</p>
+<ul>
+<li>worksheet showing concordances for 1987-88 in 95-96 prices and resulting average price changes per industry
+between 1982/83 price base and 1995/96 price base;</li>
+<li>worksheet showing application of concordances to Philpott's (1999) industry set for 1959/60 to 1987/88 at 1982/83 prices;</li>
+<li>worksheet displaying Philpott industry data for 1959/60 to 1987/88 converted to a ANZSIC base at 1995/96 prices together with Statistic's comparable industry data for 1987/88 to 2001/02.</li></ul>
+
+<h2> Employment by Industry </h2>
+
+<p>Up to 1990, Philpott (1994) based his estimates on the Quarterly Employment Survey. Agriculture was estimated from the Agricultural Census. In Philpott (1999), he based his estimates on the
+Household Labour Force Survey (HLFS). The data are March year annual averages
+of the quarterly HLFS statistics with full time equivalents calculated as one
+part time worker = 0.35 a full time worker (RPEP No 293). This data was welded
+to the earlier QES data from <u>1987</u>.</p>
+
+<p>I have continued this series up to March year <u>2002</u> by asking Statistics to recalculate the full- time and part-time employment by industry on the same basis. The new data is welded to
+the old data from1<u>997-98</u>. This set is only NZSIC compatible. (See file "philpott base xls")</p>
+
+<p>The industry classification used by Philpott and Statistics is shown in Box 2.</p>
+
+<div class="c5">
+<p class='by'>Box 2: Employment by Industry: NZSIC and HLFS classification(Philpott) </p>
+<dl>
+	<dt><u>Agriculture:</u></dt>
+	<dd>111. Agr. &amp; Livestock; 112. Agr. Services.</dd>
+
+
+<dt><u>Fishing &amp; Hunting:</u></dt> 
+<dd>113. Hunting; 131. Ocean Fishing; 132. Inland Fishing 133. Fishing Consultants.</dd>
+
+<dt><u>Forestry &amp; Logging:</u></dt>
+<dd>121. Forestry; 122. Logging &amp; Felling; 123.Forestry&amp;Logging Management.</dd>
+<dt><u>Mining&amp;Quarrying:</u></dt>
+<dd>210. Coal Mining; 220. Crude Petroleum &amp; Natural Gas; 230. Metal Ore: 290.Other Mining; 291.Mining Consultants.</dd>
+<dt><u>Food, Beverages &amp; Tobacco:</u></dt>
+<dd>311. Food; 313. Beverages; 314. Tobacco.</dd>
+<dt><u>Wood &amp; Wood Products:</u></dt>
+<dd>331. Wood &amp; Wood Products; 332. Furniture &amp; Fixtures.</dd>
+<dt><u>Paper Products, Printing &amp; Publishing:</u></dt>
+<dd>341. Paper; 342. Printing, Publishing &amp; Allied Industries.</dd>
+<dt><u>Basic Metal Industries:</u></dt>
+<dd>371. Iron &amp; Steel; 372. Non-ferrous Metal Basic Industries.</dd></p>
+<dt><u>Textiles, Apparel &amp; Leather:</u></dt>
+<dd>321. Textiles; 322. Apparel; 323. Leathergoods; 324. Footwear.</dd>
+<dt><u>Chemical, Petroleum, Rubber &amp; Plastic:</u></dt>
+<dd>220. Crude Petroleum &amp; Natural Gas 351. Industrial Chemicals; 352. Other Chemical Products;
+353. Petroleum Refining 354. MiscProds; 355. Rubber Products 356. Plastic Products nec.</dd>
+<dt><u>Non-metallic Mineral Products:</u></dt>
+<dd>361. Pottery, China; 362. Glass &amp; Glass Products 369. Other Non-metallic Mineral Products.</dd>
+<dt><u>Machinery &amp; Metal Products</u></dt>
+<dd>381. Fabricated Metal Products; 382. Machinery; 383. Electrical Machinery; 384.Transport;
+385. Prof &amp; Scientific Measuring Equipment nec.</dd>
+<dt><u>Other Manufacturing:</u></dt>
+<dd>390.Other Manufacturing Industries.</dd>
+<dt><u>Electricity, Gas &amp; Water:</u></dt>
+<dd>410. Electricity &amp; Gas; 420. Water Works &amp; Supply.</dd>
+<dt><u>Building &amp; Construction:</u></dt>
+<dd>510. Construction; 511. Project Management; 520. Construction, Other; 521. Non-Building Management;
+ 530, 531. Ancillary Construction Services.</dd>
+<dt><u>Trade, Restaurants &amp; Hotels:</u></dt>
+<dd>611. Unprocessed Pr. Prods; 612. Food &amp; Beverages; 613. Textiles &amp; Clothing; 614. Building. Material &amp; Supplies; 615. House Appliances; 616. Pulp &amp; Paper Products; 617. Pharm. Products; 618. Machinery &amp; Metals; 619. Wholesale Trade; 621. Animals &amp; Unprocessed Pr. Prods; 622.Food &amp; B &amp; T; 623. Textiles &amp; Clothing; 624. Paint,Wallpaper; 625. Household Appliances; 626. Paper Prods; 627. Pharm. Prods; 628. Transport, Vehicles, Fuel; 629. Retail Trade; 631. Restaurants; 632. Hotels &amp; Motels.</dd>
+<dt><u>Transport &amp; Storage:</u></dt> <dd>711. Transport; 712. Water Transport; 713. Air Transport; 719. Services Allied to Transport.</dd>
+<dt><u>Communication:</u></dt> <dd>720. Communication.</dd>
+<dt><u>Finance, Insurance, Real Estate &amp; Business Services:</u></dt>
+<dd>811. Banking; 812. Other Finance; 813. Investment; 814. Investment Services; 821. Insurance; 822, 823. Superannuation; 831. RealEstate; 832. Business; 833. Machinery Renting; 834. Publishing (not associated with printing).</dd>
+<dt><u>Community. Social &amp; Personal Services:</u></dt> 
+<dd>920. Sanitary &amp; Cleaning; 933. Medical &amp; Dental; 935. Business Associations; 939. Religious Services; 941. Motion Pictures; 943. RacingServices; 944. Sporting &amp; Recreation; 945. Amusements; 951. RepairServices; 952. DryCleaning; 953. Domestic Services; 0. Not Specified.</dd>
+<dt><u>Government(Central &amp; Local) &amp; Non-MarketServices:</u></dt>
+<dd>910. Public Admin &amp; Defence; 931. Education; 932: Research Institutes; 934. Welfare Services; 942. Libraries &amp; Museums; 960. International &amp; Extra-Territorial; 959. Misc.</dd></dl>
+</div>
+<p>According to Statistics ( J Morris) current labour employment statistics are ANZSIC based back to 1996.
+Part-time workers are weighted at 0.5 FTEs. FTEs from the QES are available at
+the ANZSIC industry 1 level (excluding agriculture) from 1989 to the present.
+Up to June 2003, there was a transition period in the conversion from NZSIC to
+ANZSIC while both codes were used. The March 2003 quarter of the HLFS featured a 
+change to the industry coding system [on the returned questionaires] on an ANZSIC 
+basis at the 3 digit ANZSIC level.
+This was to overcome certain non-sampling error problems like identifying the
+correct industry a firm belonged to and other possible processing errors.
+NZSIC-based statistics have been discontinued.</p>
+
+<p>Thus Philpott's series were never compatible with the published weighted series though they were compatible
+with the QES data itself. Statistics has ongoing research to take the ANZSIC
+series back to 1970.(J Morris). In the meantime the only long term series is
+that of Philpott which is not compatible with ANZSIC-based real GDP. I have not
+investigated a concordance system that might align the NZSIC based data to
+ANZSIC.</p>
+
+<h2>Gross Capital Formation and Capital Stocks</h2>
+
+<p>I will discuss the Philpott approach first
+and then the approach adopted later by Statstics New Zealand. We start with
+capital investment in each industry and then proceed to estimating stocks of
+capital. In later work, Philpott (1994,
+1999) used the GCF values given in the Expenditure estimates of GDP in the
+aggregate and industry estimates from NZIER. as Statistics had not generated
+the data for industry GCF after 1990 at that time. Statistics has now produced 
+a new GCF series from 1972 to 1997 (recently up-dated to 1999) on the 
+ANZIND classification. ANZIND is is an ANZSIC based classification
+used to group industries for publication ( Nick Treadgold). Philpott's data is
+all NZSIC based.</p>
+
+<p>For deflating the nominal series of GCF, Philpott used the implicit deflator for GCF from the aggregate expenditure GDP series. This applied across all industries. In updating Philpott's stock series
+to 1999 I have used the All Groups Capital Goods Price index which has been
+available since December 1989 and the Stats GCF data from 1990-91. The same
+price index is used across all industries. Philpott appears to have been
+slightly under-estimating the absolute level of nominal CGF though not of real
+GCF. e.g.</p>
+<table class="c5"><tr><th colspan="9">Total GCF Expenditure-Nominals $m</th></tr>
+<tr><td class="l">Years</td><td>90-1</td><td>91-2</td><td>92-3</td><td>93-4</td><td>94-5</td><td>95-6</td><td>96-7</td><td>97-8</td></tr>
+<tr><td class="l">Stats</td><td>14421</td><td>11972</td><td>12571</td><td>15035</td><td>17747</td><td>19890</td><td>21110</td><td>20678</td></tr>
+<tr><td class="l">Philpott</td><td>13948</td><td>11702</td><td>12612</td><td>14870</td><td>17212</td><td>18651</td><td>19379</td><td>&nbsp;-</td>
+<tr><td colspan="9" class="l">Real GCF $m</td></tr>
+<tr><td class="l">New estimate</td><td>9986</td><td>8091</td><td>8286</td><td>9684</td><td>11242</td><td>12441</td><td>13195</td><td>&nbsp;-</td></tr>
+<tr><td class="l">Old Estimate</td><td>9658</td><td>8161</td><td>8817</td><td>10405</td><td>11348</td><td>12261</td><td>12971</td><td>&nbsp;-</td></tr></table>
+
+<p>While the Stats GCF data is ANZSIC consistent, I have not adjusted it to an NZSIC basis in these estimates. Where the largest discrepancies occur (in the same industries as for real GDP) the
+percentage changes in the ANZSIC series have been married to Philpott's NZSIC
+data sets.</p>
+
+<ol style='' start=1 type=1>
+ <li><u>Philpott Net Capital Stocks</u></li>
+</ol>
+
+<p>Net Capital Stocks refer to an perpetual inventory (PIM) series of Philpott's 
+which assumes wastage of assets is equal to the IRD rates of depreciation for 
+land and buildings, and plant and equipment. Starting values are derived from 
+balance sheet data for 1950 (RPEP Paper 270). Philpott derived stock values 
+for buildings and plant separately and then added them. Each year deflated 
+capital investment is added and depreciation deducted. The end-of-year values 
+become the starting values for the following year.</p>
+
+<p>The new Statistics series on capital formation does not give buildings 
+and plant separately so my updating averages the depreciation rates and 
+applies the PIM model to the aggregates (This information can be obtained 
+from Stats if needed). To obtain average depreciation over both types of
+asset the actual <q>wastage</q> in 1990-91 in each sector was estimated from
+Philpott's data for that year and applied to subsequent years. Over all groups,
+the average wastage in that year was 6.25%. This could vary slightly from year
+to year as the industry weightings change.</p>
+<table class="c5">
+<tr><th colspan="9">All Groups Total NZSIC (at beginning of year shown)</th></tr>
+<tr class="sm">
+<td class="l">Years $m</td>
+<td>88-9</td>
+<td>89-0</td>
+<td>90-1</td>
+<td>91-2</td>
+<td>92-3</td>
+<td>93-4</td>
+<td>94-5</td>
+<td>95-6</td>
+<td>96-7</td>
+<td>97-8</td></tr>
+<tr class="sm">
+<td class="l">New estimates</td>
+<td>122817</td>
+<td>124878</td>
+<td>127412</td>
+<td>129434</td>
+<td>129436</td>
+<td>129632</td>
+<td>131215</td>
+<td>13425</td><td>138276</td>
+<td>-</td></tr>
+<tr class="sm">
+<td class="l">Old estimates</td>
+<td>122376</td>
+<td>124033</td>
+<td>126628</td>
+<td>128562</td>
+<td>128886</td>
+<td>129912</td>
+<td>132464</td>
+<td>136431</td>
+<td>140470</td>
+<td>144988</td></tr></table>
+
+<ol start=2 type=1>
+ <li><u>Philpott Gross Capital Stocks</u></li>
+</ol>
+
+<p>Gross Capital Stocks refer to stocks where wastage is estimated by a time of 
+retirement methodology. Basically assets stay in use until they are discarded. 
+This methodology requires estimates of the <q>life</q> 
+of an asset (Philpott calls them service lives). He says: <cite>&lsquo;Consistent with the OECD approach we assumed that assets began to be retired at a point in time 20%
+earlier than their average service life and that this retirement concluded at a
+point 20% later than that date and that the retirement process was
+linear&rsquo;</cite>. For an asset of life 20 years,
+the wastage would be spread as one eighth from year 16 to year 24 (RPEP Paper
+No 105).</p>
+
+<p>Starting values were estimated for 1950 and a profile of retirement rates estimated for that year and spread over
+subsequent years. All new investment was then retired by the rules outlined
+above.</p>
+
+<p>For up-dating purposes we do not have these
+time profiles of the Philpott gross stock estimates. It is possible, however,
+to estimate what the end-effect is in any one year by deducting capital
+investment from the change in gross stocks. This varies from industry to
+industry (with different service lives assumed) and in 1990-91 the national
+retirement of assets was 2.003% of the stock at the beginning of the year.
+Transport was as high as 5.46% and Electricity was 1.22% per year. </p>
+
+<p>It follows that this percentage will not be constant but will vary according 
+to the time profile of capital investment 20-40 years earlier. Here is a comparison 
+for some industries for 1996-97 compared with 1990-91:</p>
+<table class="c5">
+<tr><th colspan="5">Implicit Wastage</th></tr>
+<tr><td class='l'>Industry</td><td colspan="2">1990-91</td><td colspan="2">1996-97</td></tr>
+<tr><td>&nbsp;</td><td>Total</td><td>% of Stocks</td><td>Total</td><td>% of Stocks</td></tr>
+
+<tr><td class='l'>Agriculture</td><td>$557m</td><td>2.902%</td><td>$499</td> <td>2.525</td></tr>
+
+<tr><td class='l'>Electricity &amp; Water</td><td>$227</td><td>1.223</td><td>$235</td><td>1.163</td></tr>
+
+<tr><td class='l'>Finance and Insurance</td><td>$269</td><td>1.288</td><td>$302</td><td>1.039</td></tr>
+
+<tr><td class='l'>All Groups</td><td>$4378</td><td>2.003</td><td>$4640</td><td>1.837</td></tr>
+</table>
+<p>Apparently, the amount being discarded is
+getting larger except in the case of agriculture. This reflects higher
+investment in some earlier period. While the total amount being discarded is higher
+it is lower in percentage terms as the stock has grown larger in the interim.</p>
+
+<p>For my updating I have assumed that the 1990-91 depreciation/wastage rates for each
+industry category held throughout the 1990s.</p>
+<table class="c5">
+<tr><th colspan="11">All Groups NZSIC (at beginning of year shown)</th></tr>
+<tr class='sm'><td class='l'>Years $m</td><td>88-9</td><td>89-0</td><td>90-1</td><td>91-2</td><td>92-3</td> 
+<td>93-4</td><td>94-5</td><td>95-6</td><td>96-7</td><td>97-8</td></tr>
+<tr class='sm'>
+<td class='l'>New estimates</td>
+<td>210323</td>
+<td>215847</td>
+<td>221863</td>
+<td>227404</td>
+<td>230941</td>
+<td>234601</td>
+<td>239586</td>
+<td>246029</td>
+<td>253513</td>
+<td>-</td></tr>
+<tr class='sm'>
+<td class='l'>Old estimates</td>
+<td>208466</td>
+<td>212655</td>
+<td>218584</td>
+<td>223864</td>
+<td>227639</td>
+<td>231986</td>
+<td>237932</td>
+<td>244809</td>
+<td>252552</td>
+<td>260883</td></tr></table>
+<ol start=3 type=1>
+ <li><u>Statistics Net Capital Stocks<o:p></o:p> </u></li>
+</ol>
+<p> Statistics prepared their own capital stock series in 1999. To do this they updated the
+GCF data from 1990 on an ANZIND basis. They have published a current price
+series of capital stocks on an industry basis back to 1972 and a 1995-96 price
+chain linked industry series back to 1972. These estimates of stocks use the
+same GCF series as used above for the Philpott corrections, but the base stocks
+and depreciation rates are defined differently.</p>
+
+<p>In Statistics (2000) <i>gross capital stock </i>is defined as <q>accumulated investment less the
+accumulated value of the assets no longer operating (that is, retired)</q>. <i>Net
+capital stock</i> represents accumulated investment less retirements
+and accumulated depreciation for assets still operating (that is, gross capital
+stock less accumulated depreciation on assets still in operation).
+Depreciation figures are based on assets valued at current replacement cost
+and consistent rates of depreciation which better approximate the useful lives
+of assets.</p>
+
+<p>In summary:</p>
+
+<p class="abstract">Opening balance sheet value of a specific asset, <u>plus</u><br/>
+Value of assets aquired, <u>less</u><br/>
+Value of assets disposed of or depreciated, <u>plus</u><br/>
+Value of other positive or negative changes (war destruction), <u>plus</u><br/>
+Value of the positive or negative holding gains accruing during the period such as cost of
+replacement, <u>equals</u><br/>
+Value of stock of asset in closing balance sheet.</p>
+
+<p>Statistics (Pipat Wongsaart) say that, as a result of market forces, 
+<u>the purchaser's price of a new fixed asset should provide a good initial estimate of the present value
+of the future rentals</u>. This applies to all years throughout the period covered. Hence, net capital stock for each of these years can be defined as the total values of fixed assets in a particular year taking into account the asset's efficiency loss and cost of capital. I have not sighted a table of
+service lives or how it is treated in individual industries.</p>
+
+<p>Thus these estimates differ from Philpott in the way they take account of disposal of
+assets and in the way they take account of extraneous events. I am not clear
+how the service life definition differs. I remember Brian Easton has raised
+this issue of lost assets previously in discussion of the Philpott data.</p>
+
+<p>The chart (next page) shows Philpott's two real series as compared with the new Stats real
+series all in 1995-96 prices. Philpott's net stocks are growing more slowly
+than the Stats estimate due to higher depreciation (IRD rates). In 1999-2000 Stats are 46% higher than
+Philpott net stocks. On the other hand, Philpott's gross stock series are 24%
+higher than Stats net stocks (as might be expected) in 1999-2000 due to the
+lower wastage through his assumption of service lives and his lack of data on
+asset disposal. If the increment of investment is common to Stats and Philpott
+(as adjusted by myself), the difference in growth must be due to
+depreciation/wastage/write-off rates</p>
+
+<p>Can Stats series be used for econometric work? They are ANZSIC consistent and hence match the
+revised real GDP data base for industry from 1972. Social capital definitions
+need to be looked at. Only the current employment data is not ANZSIC consistent
+before 1989. So Ralph can do production functions on a consistent basis from
+1989 to the present using Stats data. This is a lot of work to get such a
+simple answer, Ralph!</p>
+
+<h2>Concluding</h2>
+<p>Stats has seriously disturbed the historical collection of macroeconomic statistics in NZ
+by introducing ANZSIC. They say they had some regard for continuity of previous
+statistical collections. It seems to me that the authors should have had a plan
+to convert GDP, employment and GCF on a similar basis for similar time periods
+back to some common date in the past. At the moment it would be a good idea if
+someone extended back the employment statistics on an ANZIND basis back to 1972 
+as a matter of priority (I am assured [by J Morris] that a team is
+working on it).</p>
+
+<p>&nbsp;</p>
+
+<h2>References</h2>
+
+<p>Haugh David, (2001), Calibration of a Chain linked Volume Production
+GDP Database, NZ Treasury Web site.</p>
+
+<p>MoRST (Var), <i>NZ Research and Experimental Development Statistics: All Sectors</i>, Ministry of Research,
+Science and Technology.</p>
+
+<p>Philpott, Bryan (1994), Data Base of Nominal and Real Output,
+Labour, and Capital Employed by SNA Industry Group, <i>Research Project on
+Economic Planning Paper 265</i>, School of Economics and Finance, Victoria
+University of Wellington.</p>
+
+<p>Philpott, Bryan (1999), Provisional Estimates for 1990-1998 of
+Output Labour &amp; Capital Employed by SNA Industry Group, <i>Research Project on Economic Planning
+Paper 293</i>, School of Economics and Finance, Victoria University of
+Wellington.</p>
+
+<p>Statistics NZ (2000), Measuring Capital Stock in the New Zealand
+Economy, <i>Key Statistics</i>, December.</p>
+
+<p>&nbsp; </p>
+
+<h2>Appendix 1: Building the R &amp; D Data Set</h2>
+
+<p>(i) <u>R &amp; D Expenditure</u></p>
+
+<p>Since 1989, MoRST have carried out annual
+or semi-annual surveys of R &amp; D expenditure in New Zealand (MoRST var). These
+carefully delineate research expenditure in the major providers of research;
+government, firms and universities, and also identify which productive sectors
+the research is aimed at. The surveys also carefully differentiate between 
+<i>funding</i>functions and <i>provider</i> functions. Thus for the period
+1989-90 to 2000-01 there is a detailed record of research expenditure on a
+provider (who carries it out) and a funder basis (who pays for it) including
+the designated sectors to which the research is directed. For the analysis of
+impacts of this research endeavour, the <i>provider</i> basis of R &amp; D is the best guide.</p>
+
+<p>For the period from 1989 back to 1962, the record of Government 
+expenditure on R&amp;D is almost complete. Total departmental funding
+ is faithfully recorded in the Department of Statistics'
+Yearbooks and by NRAC and designated industries affected by areas of research
+are identified on a broad basis. Some extrapolation of data is required to get
+sectoral public expenditure back to 1962 on a consistent basis. </p>
+
+<p>(ii) <u>NZSIC Groups</u></p>
+
+<p>In combination with the productive sectors
+recognised in the MoRST surveys, the Yearbook coverage determined the number of
+sectors which could be analysed for the whole period back to 1960 (R&amp;D
+sector below). As the productivity data is presented on a national accounting
+basis (SNA) according to NZSIC, the following schema shows the sectoral
+allocation used in my research papers:</p>
+<table border="1" cellpadding="5" cellspacing="0"  valign="top">
+<tr>
+<td><u>MoRST output classes</u></td> <td><u>R &amp; D sector</u></td> <td><u>NZSIC sectors (Philpott)</u></td>
+</tr>
+<tr>
+<td>Animal industries  
+<br/>Dairy industries
+<br/>Forage
+<br/>Horticultural, Arable</td>
+<td>Agriculture</td>
+<td>Agriculture</td></tr>
+<tr>
+<td>Fisheries
+<br/>Forest products
+<br/>Food &amp; beverages</td>
+<td>Fishing
+<br/>Forestry   
+<br/>Processing</td>
+<td><br/>Fishing
+<br/>Forestry
+<br/>Food, Wood, Paper, Textiles</td></tr>
+<tr>
+<td>Materials
+<br/>Engineering
+<br/>Electronics
+</td>
+<td>Manufacturing</td>
+<td><br/>Mining, Basic Metal,Chemicals,
+<br/>Non-metallics, Machinery</td>
+</tr>
+
+<tr>
+<td>Energy
+<br/>Construction
+<br/>Transport services
+<br/>Tourism
+</td>
+<td>Energy
+<br/>Building
+<br/>Transport
+<br/>Services
+</td>
+<td>Electricity, Gas and Water
+<br/>Building and Construction
+<br/>Transport and Storage Services
+<br/>Trade, Communications, Finance,
+<br/>Community Services</td>
+</tr>
+
+<tr>
+<td>Information
+<br/>Planning
+<br/>Social sciences
+<br/>Environment
+<br/>Fundamental
+<br/>Health
+<br/>Defence</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><u>Total Market Sectors</u>
+<br/>Ownership of Occupied Dwellings ditto
+<br/>Government
+<br/><u>Total, All Production Groups</u> 
+</td>
+
+<td>Production sector
+<br/>ditto
+<br/>ditto
+<br/>All sectors</td>
+</tr>
+</table><p>(File reference is <q>R&amp;D Base.xls</q>)</p>
+
+<p><b>Appendix 2: Letter from Statistics New Zealand</b></p>
+
+<p>&nbsp;</p>
+
+<p>12 May 2004</p>
+
+<p>In summary, we would not agree that Statistics New Zealand have seriously disturbed the historical economic series.
+or have the changes in ANZSIC been arbitarily made:</p>
+
+The adoption of ANZSIC was introduced to align the industrial classification used by Statistics New Zealand with
+other international agencies.</p>
+
+<p>Industrial classifications need to be updated perioically to reflect changes in technology and the business
+environment.</p>
+
+<p>Users are consulted throughout the process of classification revisions.</p>
+
+<p>The range of industrial classifications will be wider when backdating has been completed. In particular:</p>
+<ul>
+<li>The output series is in the process of being
+backdated on an ANZSIC basis. When completed (November 2004) the range and
+length of published series will be the same as was availble under NZSIC.</li>
+
+<li>Labour input series are currently being
+backdated on an ANZSIC basis to 1972. This will be the first time that a
+comprehensive industry labour series has been compiled that is consistent with
+output and capital statistics. The primary purpose of the labour series is for
+the calculation of multi-factor productivity estimates that will align as cosely as possible to the
+GDP added value series.</li></ul>
+
+<p>The range of capital series has been extended significantly since ANZSIC was introduced. Official capital
+expenditure series by NZSIC industry were previously only available between
+1972 and 1987. Since the shift to ANZSIC, these series (both nominal and real)
+have been backdated to 1972 and are updated on an annual basis (usually t-3).</p>
+
+<p>In addition to capital expenditure series, productivity capital stock, net capital stock, and consumption of fixed
+capital (replacement cost) by industry have been compiled from 1972 to t-3.
+None of these series were not available under NZSIC.</p>
+
+<p>The differences between the capital stock series produced by Philpott and Statistics New Zealand are due to some
+significant differences in assumptions and methodologies. This would appear to
+fall outside the purpose of this paper.</p>
+
+<p>Statistics New Zealand's capital stock series have been compiled consistently with the
+methodologies outlined in the OECD Manual <q>Measuring Capital Stock</q>. The main
+pointof difference is the use of rental prices to weight together assets. This
+is not currently done in the StatisticsNew Zealand model.</p>
+
+<p>A couple of points of clarification:</p>
+
+<p>The mining industry has been significantly affected by conceptual changes introduced with SNA93. Where
+previously mineral exploration was treated as a current expense it is now
+capitalised and included in gross fixed capital formation</p>
+
+<p>The methodology for compiling primary food manufacturing has not changed between pre-1994 and post-1994. The series
+have simply been rebased. 1995-96 is the expression period, not the base
+period. Under chain-linking, the base period is effectively updated on an
+annual basis.</p>
+
+<p>Note that the ANZIND classification is also that used to publish the output (real GDP) and capital series. It is also
+that which will be used for the backdated employment series.</p>
+
+<p>Splits of buildings and plant gross fixed capital formation (both nominal and real)are readily available in
+Statistics New Zealand's published output.</p>
+
+<p>The HLFS is only ANZSIC based back to 1996. This because the HLFS does not code industry low enough to allow a full
+concordance to be used . Similarly the period up to March (not June as stated)
+2003 with dual coding also refers to the HLFS.</p>
+
+<p>The QES is available on ANZSIC back to 1989.</p>
+
+<div><br clear=all>
+
+<hr align=left size=1 width="33%">
+<h2>Footnotes</h2>
+<div id=ftn1>
+<p><a href="#_ftnref1" name="_ftn1" title="">[1]</a> Consulting Economist, Wellington. Grant Scobie and 
+Ralph Lattimore first suggested this project. Considerable help has been received from Statistics NZ which is acknowledged in the text.</p>
+</div>
+<div id=ftn2>
+<p><a href="#_ftnref2" name="_ftn2" title="">[2]</a> United Nations System of National Accounts</p>
+</div>
+<div id=ftn3>
+<p><a href="#_ftnref3" name="_ftn3" title="">[3]</a> Statistics New Zealand also recently released chain-linked expenditure
+based estimates of quarterly real GDP disaggregated by the usual major
+expenditure classifications: private consumption, investment, government
+expenditure, exports and imports. Some of these components are further disaggregated into sub-components.</p>
+</div>
+</div>
+</body>
+</html>

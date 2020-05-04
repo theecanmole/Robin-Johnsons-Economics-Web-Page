@@ -1,0 +1,484 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="generator" content="Bluefish 1.0.7"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="R W M Johnson, Robin Johnson, Kay Cao, food demand, agricultural economics, agricultural trade, non-tariff barriers, gravity models, meat products, New Zealand" lang="en-nz" />
+<link href="style.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="print.css" type="text/css" rel="stylesheet" media="print" />
+<title>Econometric Analysis of some Trade Issues for Meat; With Kay Cao</title>
+</head>
+<body>
+<div id="TopLayer">
+<p class="nav">
+<a href="http://homepages.paradise.net.nz/johnso14/">Robin Johnsons economics webpage</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="Javascript:self.print()">Print this page</a>
+</p>
+</div>
+
+<h1>Econometric Analysis of some Trade Issues for Meat</h1>
+
+<p class='by'>by</p>
+
+<p class='by'>Kay Cao and Robin Johnson<a class='f' href="#_ftn1"
+name="_ftnref1" title=""><sup>1</sup></a></p>
+
+<p>This paper is based on an econometric model of the New Zealand meat export trade for the period
+1990-2003. The model is known as a gravity model because it describes trade flows
+as being balanced between the respective pull of domestic and importing country
+size and incomes. The meat trade is characterised by strict hygiene
+regulations, quota markets and tariff charges in different markets. In
+addition, meat is not a homogeneous commodity but is characterised by breed,
+cut and presentation, and differentiated market destinations. An econometric
+model not only identifies general trends in demand and supply which might
+already be fairly obvious to the trade preactitioner but it also puts
+confidence intervals on the economic relationships being observed. We estimate
+income elasticities of demand, price elasticities, distance factors, tariff
+rate quota restrictions, and the impact of Hazard Analysis Critical Control
+Point (HACCP) regulations. Results are available for all meat, beef and
+veal and lamb exports to 9 countries.</p>
+
+
+<h2>1. Introduction</h2>
+
+<p>Meat is a major export earner for New Zealand and a source of considerable national income. 
+The markets for meat are all at a long distance and involve heavy storage, preservation and transport
+costs. Since the British entry into the EU, the preferred position of the
+British market has declined, though tariff rate quota (TRQ) entitlements
+maintain a lucrative market in the EU for lamb. Since the late 1950s access to
+the US market for beef has opened up new opportunities. More recently the US
+has imposed tariff rate quotas on Australia and New Zealand and restricted
+imports in some years. As a result of these restrictions market diversification
+has been encouraged in the trade and a wide array of products are sent to
+widely different markets.</p>
+
+<p>The second characteristic of the export
+meat market is the wide prevalence of non-tariff barriers in importing
+countries (NTBs). These trade barriers are based on food safety and animal
+health grounds in importing countries which create a high cost hurdle to trade.
+NTBs are regulated by the WTO Agreement on Sanitary and Phytosanitary Measures
+signed in 1994. There are common systems in place for maintaining hygiene
+standards which may have deletarious or positive impacts on trade in meat.</p>
+
+<p>The paper is based on the period since the Meat Board regulatorary powers were lifted, though the Board's successor, Meat New Zealand, continues to manage the tariff rate quota markets on the behalf of
+the industry.</p>
+
+<p>In this paper, we want to model trade flows
+to different destinations and look for income and price relationships in the
+various markets. The model is a combined cross-section and time series data
+model subject to problems with the distribution of the error terms. We overcome
+these problems by using a statistical package, POOL command in SHAZAM, to
+redistribute the error terms (Cao and Scrimgeour 2003).</p>
+
+<h2>2. General Interest</h2>
+
+<p>From a policy point of view we are interested
+in changes in the direction of trade, changes in product mix and new markets,
+changes in quota conditions, commercial relationships, regulatory relationships
+and food safety and animal health restrictions. The kind of analysis we employ
+gives very good estimates of the overall price and income elasticities though
+we haven't separated them out for different markets.</p>
+
+<p>The basic market situation is one of
+regulated trade characterised by the tariff rate quotas and hygiene
+restrictions. Private shippers in New Zealand work through agents in the main
+country markets and are generally fully aware of current price expectations in
+each market. An annual model of market relationships can therefore be
+regarded as fully reflecting current
+supply and demand conditions, even though shipping times to the west coast of
+the US is two weeks and four weeks to Rotterdam.</p>
+
+<p>Where possible we will model food safety
+and animal health requirements as represented by the Hazard Analysis Critical
+Control Point (HACCP) system devised in the US. There are a number of problems
+in assessing technical barriers to trade such as hygiene restrictions and we
+turn to these next. </p>
+
+<h2>3. Technical Standards as NTBs</h2>
+
+<p>Our main research objective is to quantify
+changes in trade patterns that result from the use of different policy
+instruments for technical standards. Gravity regression models offer some hope
+in isolating the particular effects on trade in goods by changes in technical
+standards and health measures. Gravity models use cross-section and time series
+data to examine trade flows between countries in the context of changing
+population and income trends. They can be based on single commodities or a SITC
+industry group. Our hypothesis would be to ask if health and technical
+standards make a difference to such trade flows between countries?</p>
+
+<p>Some approaches set the trade instrument as
+the dependent variable in the context of data from a number of countries and
+look for different responses between countries to the particular instrument concerned.
+Other approaches use the flow of trade in an SITC category between pairs of
+countries, and look for a trade response to different policy instruments for
+food safety over time. As an example of the first approach, Rose (2002a, 2002b)
+takes a wide sample of countries in 1987 and examines whether frequency and coverage measures of NTBs
+differ between Members and Non-members of WTO after allowing for remoteness,
+population size and income per capita. In samples covering intermediate goods and capital goods,
+manufacturing goods, agricultural goods and resources Rose found no significant
+differences between Members and Non-members. That is, the mix of non-tariff
+protection measures in each country is not particularly related to membership
+of WTO in the period concerned.</p>
+
+<p>A technical policy instrument approach is
+examined by Otsuki and Wilson (2000) using SITC categories for <q>dried grains</q>
+(wheat, rice, maize, dried and preserved fruit and nuts) for 31 exporting
+countries and 15 importing countries between 1995 and 1998. The standard tested
+was the permitted level of aflatoxin B allowed by importing countries as
+measured in parts/m. After allowing for GNP, population, distance, and membership of MERCOSUR, ASEAN and NAFTA, there was a negative [and significant] trade response to lower permitted levels of
+contaminant as would be expected. If the Codex standard for afloxin B were imposed across all countries [some are above and some are below] there would be considerable increases in the grain trade, and if countries were
+confined to the [more stringent] EU standard there would be a 6% fall in trade.</p>
+
+<p>In another study by Wilson <i>et al</i>
+(2003), the presence or absence of hormone residues is tested. The test is for
+minimum levels of tetracycline in parts per million in bovine meat, and the
+model encompasses 16 exporting countries and 5 importing countries for the
+period 1995-2000. In this case the aflatoxin result is repeated [at a
+significant level] with an elasticity of less than one. At the CODEX MRL, trade would increase by 57% and at the EU MRL, trade would decrease by 34%. In the earlier result, Australia would
+increase its exports to Canada, EU, New Zealand and Japan, but decrease them to
+the United States. New Zealand would increase exports to Australia and Canada,
+EU and Japan, but lose exports to the United States [The US has the highest
+permitted MRL].</p>
+
+<h2>4. Our Approach</h2>
+
+<p>Our research concerns the impact of the
+hazard analysis critical control point (HACCP) regulations on the meat trade
+between New Zealand and its main customers (as shown in Table 1). HACCP is a
+systematic approach to the identification, evaluation, and control of food
+safety hazards . Previous to its becoming mandatory in 1999, inspection of meat
+products was by visual and organoleptic [sensory] systems. The hypothesis is
+that the regression coefficient for the dummy variable representing mandatory
+inspection will be positive and probably less than unity (small percentage
+effect).</p>
+
+<p>The international market for chilled and
+frozen meat products is characterised by regulated trade between countries, by
+tariff rate import quotas in some countries (EU the USA and Canada), and strict import hygiene regulations in all countries. Before the WTO Agreement in 1995, there was a bilateral agreement
+with the EU for a certain quota at zero tariff (see Table 3). Since 1995, there
+has been a tariff rate quota of 226.7 th tonnes with the tariff set at 12.8%
+plus a variable rate between 90-308 euros/kg depending on cut. For the beef
+quota in the US the out-of-quota tariff is 4.4 cents/kg. For Canada, exporters have to apply to Agriculture Canada for permits totalling up to 20,000 tonnes per year. We do not see a straightforward
+way to model these tariff and quota arrangements apart from identifying the quota markets.</p>
+
+<p>Hygiene standards tend to be set by the US Department of Agriculture and the EU
+animal health authorities (Petrey and Johnson 1993). Private shippers in New
+Zealand work through agents in the main country markets and are generally fully
+aware of current price expectations in each market. An annual model of market
+relationships can therefore be regarded as fully reflecting current supply and demand conditions, even though
+shipping times to the west coast of the US is two weeks and four weeks to Rotterdam.</p>
+
+<p>The New Zealand meat trade is dominated by
+lamb exports to the EU and beef exports to the USA. Significant amounts of lamb
+are also exported to China and the USA; significant amounts of beef are
+exported to Canada, Japan and Korea (Table 1). In terms of all nine countries
+covered by our models (Australia, Canada, China, France, Germany, Japan, Korea,
+Britain and the USA), 74% of total exports of lamb, 77% of exports of beef, and 76 % of all meat exports were
+going to these 9 destinations in the 2002-03 September year.</p>
+
+<table align="center" class="c2">
+<tr><th colspan='7'>Table 1: Shifts in New Zealand Meat Trade 1991-2003</th></tr>
+<tr><td colspan='7'>(% of total trade)</td></tr>
+
+<tr><td>Destination</td><td colspan='2'>LAMB</td><td colspan='2'>BEEF</td><td colspan='2'>ALL MEAT</td>
+</tr>
+
+<tr><td>&nbsp;</td><td>1991-92</td><td>2002-03</td><td>1991-92</td><td>2002-03</td>		<td>1991-92</td>	<td>2002-03</td></tr>
+
+<tr><td class='l'>Australia</td><td>0.1</td><td>0.1</td><td>0.8</td><td>0.4</td><td>0.4</td><td>0.3</td></tr>
+
+<tr><td class='l'>Canada</td> <td>2.3</td><td>3.4</td><td>6.3</td><td>10.8</td><td>3.5</td><td>6.4</td></tr>
+
+<tr><td class='l'>China</td><td>--</td><td>10.0</td><td>--</td><td>0.3</td><td>0.2</td>	<td>4.4</td></tr>
+
+<tr><td class='l'>France</td>	<td>5.7</td>	<td>9.2</td>	<td>0.1</td>	<td>0.1</td> 	<td>3.0</td>	<td>3.8</td></tr>
+
+<tr><td class='l'>Germany</td><td>6.6</td><td>7.7</td><td>0.1</td><td>0.1</td><td>3.5</td><td>3.5</td></tr>	
+
+<tr><td class='l'>Japan</td><td>5.5</td><td>2.7</td><td>2.8</td><td>4.3</td><td>4.4</td><td>3.8</td></tr>	
+
+<tr><td class='l'>Korea</td>	<td>5.2</td>	<td>0.2</td>	<td>3.8</td>	<td>6.1</td>	<td>4.4</td>	<td>3.5</td></tr>
+
+<tr><td class='l'>UK</td><td>30.5</td><td>32.9</td><td>0.1</td><td>0.1</td><td>14.8</td><td>11.0</td></tr>
+
+<tr><td class='l'>USA</td><td>2.3</td><td>7.9</td><td>74.5</td><td>54.9</td><td>30.3</td><td>39.8</td></tr>	
+
+<tr><td class='l'>Other</td><td>41.8</td><td>35.9</td><td>11.5</td><td>22.9</td><td>35.5</td><td>23.5</td></tr> 
+
+<tr><td class='l'>Total</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+
+<tr><td class='l'>Coverage %</td><td>58.2</td><td>74.1</td><td>88.5</td><td>77.1</td><td>64.5</td><td>76.5</td></tr> 
+
+<tr><td colspan='7'>Source. MWI</td></tr>
+</table>
+ 
+
+<p>While there were considerable shifts in the meat trade in the 1990s, the total size of the trade was not expanding. Total meat exports were 736,000 tonnes in 1987-88, reached 785,000 tonns in 1992-93,
+and were only 629,000 tonnes in 2002-03. Similarly unit returns were static
+through the early 1990s but slowly rose after 1997-98. One could say that this
+situation was production led, as other land uses became profitable, pointing to
+static terms of trade for livestock production in the country. </p>
+
+<p>Table 2 shows the quota limitation and utilization for beef into the US for the last 10 years; Table 3 shows the EU sheepmeat and goatmeat quota utilization into the EU for recent years; and
+Table 4 shows details of the quality beef quota into the EU. It is
+characteristic that NZ fills the EU lamb quota every year but does not always
+fill the US beef quota.</p><table align="center" class="c2">
+<tr><th colspan='4'>Table 2: US Beef and Veal Quota Utilization<br/>(tonnes product weight)</th></tr>
+<tr><td>Calendar year</td><td>US TRG</td><td>Imports from NZ</td><td>Per cent</td></tr>
+<tr><td>1994</td>  <td>184400</td>  <td>176174</td>  <td>95.5</td></tr>
+<tr><td>1995</td>   <td>213402</td>  <td>185762</td>  <td>87.0</td></tr>
+<tr><td>1996</td>  <td> 213402</td>  <td>162939</td>   <td>76.4</td></tr>
+<tr><td>1997</td>   <td>213402 </td> <td>190079</td>   <td>89.1</td></tr>
+<tr><td>1998</td>   <td>213402</td>   <td>191242</td>   <td>89.6</td></tr>
+<tr><td>1999</td>   <td>213402</td>    <td>179142</td>  <td>83.9</td></tr>
+<tr><td>2000</td>   <td>213402 </td>    <td>213402</td>  <td>100.0</td></tr>
+<tr><td>2001 </td>  <td>213402</td>     <td>209681</td>   <td>98.3</td></tr>
+<tr><td>2002</td>   <td>213402</td>    <td> 199163</td>  <td> 93.3</td></tr>
+<tr><td>2003</td>   <td>213402  </td>   <td>211549 </td> <td>99.1</td></tr>
+<tr><td>2004</td>   <td>213402  </td>   <td>211655</td>  <td>99.2</td></tr>
+<tr><td colspan='4'>Source: Meat New Zealand</td></tr></table>
+<p><br/></p>
+
+<table align="center" class="c2">
+<tr><th colspan='4'>Table 3: EU Sheepmeat and Goatmeat Quota Utilization<br/> (tonnes c.w.e.)</th></tr>
+<tr><td>Calendar year</td>	<td>EU TRQ</td>	<td>Imports from NZ</td>		<td>Per cent</td></tr>
+<tr><td>1995</td><td>216150</td><td>210529</td>	<td>97.4</td></tr>	
+<tr><td>1996</td><td>226700</td><td>221675</td> <td>97.8</td></tr>   
+<tr><td>1997</td><td>226700</td><td>222622</td> <td>98.2</td></tr>
+<tr><td>1998</td><td>226700</td><td>222722</td> <td>98.3</td></tr>  
+<tr><td>1999</td><td>226700</td><td>220868</td>	<td>97.4</td>	</tr>
+<tr><td>2000</td><td>226700</td><td>226672</td> <td>99.9</td></tr>
+<tr><td>2001</td><td>226700</td><td>226585</td> <td>99.9</td></tr>
+<tr><td>2002</td><td>226700</td><td>226638</td>	<td>99.9</td></tr>
+<tr><td>2003</td><td>226700</td><td>226216</td> <td>99.8</td></tr>
+<tr><td colspan='4'>Source Meat New Zealand</td></tr>
+</table>
+<p><br/></p>
+<table align="center" class="c2">
+<tr><th colspan='4'>Table 4: EU High Quality Beef Quota Utilization<br/>(tonnes product weight)</th></tr>
+<tr><td>June year</td><td>EU TRG</td>	<td>Imports from NZ</td><td>Per cent</td></tr>
+<tr><td>1999-00</td><td>300</td><td>299.6</td><td>99.9</td></tr>
+<tr><td>2000-01</td><td>300</td><td>299.7</td><td>99.9</td></tr>
+<tr><td>2001-02</td><td>300</td><td>224.2</td><td>74.7</td></tr>
+<tr><td>2002-03</td><td>300</td><td>286.0</td><td>95.3</td></tr>
+<tr><td colspan='4'>Source: Meat New Zealand</td></tr></table>
+
+<p><br> </p>
+
+<h2>5. The Model</h2>
+
+<p>The commodity-specific gravity model, as derived by Bergstrand (1985 and 1989), explains bilateral trade flows as a function of the two countries' income, per capita income (or population),
+transportation costs, and other factors that may be aiding or restricting trade
+such as tariffs, exchange rate, prices and health regulations.</p>
+
+<p><i>X<sub>ij</sub> = b<sub>0</sub>
+Y<sub>i</sub><sup>b1</sup> Y<sub>j</sub><sup>b2 </sup>L<sub>i</sub><sup>b3 </sup>L<sub>j</sub><sup>b4</sup>
+C<sub>ij</sub><sup>b5</sup> A<sub>ij</sub><sup>b6 </sup>e<sup>Uij </sup></i>(1)</p>
+
+<p>Where <b><i>X</i></b><i>ij</i><sub> </sub>is
+the value (or volume) of real trade flows of a specific commodity from country
+i to country j, <b><i>Y<sub>i</sub></i></b><sub> </sub>and <b><i>Y<sub>j</sub></i></b><sub>
+</sub>are GDP of the two countries, <b><i>L<sub>i</sub></i></b> and <b><i>L<sub>j</sub></i></b>
+are their populations, <b><i>C</i></b><i>ij</i> is the transportation cost
+between i and j, <b><i>A</i></b><i>ij</i> comprises the other factors, and </span><b><i>e</i></b>is an error term normally distributed.</p>
+
+<p>In its estimation form, and using more descriptive independent variable nomenclature, we can write:</p>
+
+<p><i>ln X<sub>ijt </sub>= b<sub>0
+</sub>+ b<sub>1</sub>lnY<sub>it</sub> + b<sub>2</sub>lnY<sub>jt</sub> +b<sub>3</sub>lnL<sub>it</sub>
++ b<sub>4</sub>lnL<sub>jt</sub> + b<sub>5</sub>lnDIST<sub>ij</sub> + b<sub>6</sub>QUOTA<sub>ij
+</sub>+ b<sub>7</sub>lnER<sub>ijt</sub> + b<sub>8</sub>lnP<sub>ijt</sub> + b<sub>9</sub>lnPROD<sub>jt</sub> + b<sub>10</sub>HACCP<sub>ij </sub>+ U<sub>ijt </sub></span></i> (2)</p>
+
+<p>where </p>
+<p><b><i>X</span></i></b><i>ijt</i>is tonnes of meat exported to each country market.</p>
+
+<p><b><i>DIST</i></b><i>ij</i> is the distance between the two countries, which is used as a proxy for transportation  costs.</p>
+
+<p><b><i>QUOTA</i></b><i>ij</i> is a dummy variable which takes into
+account tariff policy between any two countries. As the market for NZ meats is
+dominated by the presence of quotas, we include a dummy variable which takes value 1 when there is a quota in
+place.</p>
+
+<p><b><i>ER</i></b><i>ijt</i> is the exchange rate which is the value of NZ dollars expressed in
+terms of the foreign currency.</p>
+
+<p><b><i>P</i></b><i>ijt</i> is unit meat export price at the f.o.b. level to destination j.</p>
+
+<p><b><i>PROD</i></b><i>jt</i> is the volume of meat production in country j which is used as a proxy for changes in price of meats in each country.</p>
+
+<p><b><i>HACCP</i></b><i>ij</i> is a dummy variable which takes value 1 when it is mandated, zero otherwise.</p>
+
+<p>It is normally expected that the coefficients of income variables are positive as countries with higher incomes tend to trade more. Similarly, coefficients of population<a class='f' href="#_ftn2" name="_ftnref2" title=""><sup>2</sup></a> and distance are normally expected to be negative.
+However, for a single exporting country and a single commodity,
+these expectations may be subject to change. As stated in Bergstrand (1989),
+income coefficients are positive if the commodity is the luxury end of
+consumption, capital-intensive in production, and having an elasticity of
+substitution exceeding unity. This may not be the case always for NZ meat products.
+The QUOTA coefficient is expected to have a positive sign as the quotas
+generally allow for importing a certain quantity of NZ meats (beef or
+sheepmeat) at zero or concessional tariff rates. The coefficient for exchange rate is
+expected to have a negative sign as an appreciation of the NZ dollar tends to
+have a negative impact on its exports. The export price coefficient, however,
+is expected to have a negative sign as exports have not responded to higher
+prices in recent years and NZ is a price-taker for meat. The production
+coefficient is expected to be negative as an increase in meat production of
+importing countries may have a negative impact on NZ meat exports. Finally,
+HACCP is expected to have a positive sign as better food safety practises could
+enhance market access. That is, HACCP is a restriction on trade in one period,
+but an opportunity in the next period.</p>
+
+<h4>Data</h4>
+
+<p>Data of bilateral trade in meat products between NZ and major trading partners (8 countries<a class='f' href="#_ftn3" name="_ftnref3" title=""><sup>3</sup></a>) over the period 1990-2003 are used to estimate the model (as specified in
+equation 2). These data are provided by Statistics NZ as well as Meat and Wool
+Economic Service (now MWI Economic Service). GDP and population data are taken
+from International Financial Statistics Yearbook (IMF, 2003). All financial
+data have been converted to their real values. Production data is taken from
+FAO Statistical Database (<a href="http://apps.fao.org/">http://apps.fao.org</a>).
+Distances between countries are calculated as distances between capital cities,
+data is taken from <a
+href="http://www.geobytes.com/CityDistance%20Tool.htm?loadpage">http://www.geobytes.com/CityDistance
+Tool.htm?loadpage</a>. </p>
+
+<p>As only the US and UK market have tariff rate quotas for NZ meat products administered by MeatNZ, QUOTA takes value 1 for these 2 countries over the whole period. In New Zealand, HACCP was mandated in 1999 so HACCP takes value 1 from the year 2000<a class='f' href="#_ftn4" name="_ftnref4" title=""><sup>4</sup></a> when the changes take effect. Although voluntary HACCP maybe present at some plants before year 2000, we do not include this fact as our focus is on the
+effect of a uniform adoption of HACCP on the total industry's export performance.</p>
+
+<h2>6. The Results</h2>
+
+<p>Our diagnostic tests showed that there is evidence of autocorrelation and heteroscedasticity in the data set. Therefore
+to estimate the gravity model we used POOL command in SHAZAM. The POOL command
+applies a generalised least square procedure (GLS) to first estimate the model
+by Ordinary Least Square (OLS) then transform the observations using the
+estimated residuals and apply OLS to the transformed model. The estimation
+results for 8 countries (excluding China) are reported in Table 5.</p>
+
+<p>Most of the estimated coefficients are significant, except for the coefficient of importing country's GDP. Income coefficients have negative signs which reflect the fact that NZ meats are not
+capital-intensive nor luxury products. NZ GDP is negative with respect to trade
+indicating that on average marketed quantities have reduced over the period to
+most destinations while incomes rose by 2.5% per year. On the other hand,
+population rise in NZ is positively associated with the meat trade as NZ's
+population growth has been very small over the period (1.1% per year)..
+Distance sign is also positive indicating that growth markets for NZ meats are
+at the longer distances. Exchange rates have expected sign (negative) which
+suggests that an appreciation of the NZ dollars will have a negative and
+significant impact on its meat exports. Importing countries' meat production
+has a negative impact on NZ meat</p>
+
+<table align="center" class="c2">
+<tr><th colspan='3'>Table 5. Estimation results for gravity model (2)</th></tr>
+<tr><td class='l'>Variable</td>   <td>Coefficient</td> <td>Standard Error</td></tr>
+<tr><td class='l'>b<sub>0</sub></td><td>9.25</td><td>2.41***</td></tr>
+<tr><td class='l'>GDP.nz</td><td>-2.31</td><td>-0.55***</td></tr>
+<tr><td class='l'>GDP.imp</td><td>-0.071</td><td>-0.14</td></tr>
+<tr><td class='l'>POP.nz</td><td>5.66</td><td>1.44***</td></tr>
+<tr><td class='l'>POP.imp</td><td>1.022</td><td>0.28***</td></tr>
+<tr><td class='l'>DISTnz.imp</td><td>0.55</td><td>0.18***</td></tr>
+<tr><td class='l'>ER nz.imp</td><td>-0.088</td><td>-0.041**</td></tr>
+<tr><td class='l'>PRODUCTION.imp</td><td>-0.28</td><td>-0.12**</td></tr>
+<tr><td class='l'>PRICE nz.imp</td><td>-0.81</td><td>-0.08***</td></tr>
+<tr><td class='l'>QUOTA EFFECT</td><td>0.89</td><td>0.19***</td></tr>
+<tr><td class='l'>HACCP EFFECT</td><td>0.088</td><td>0.044**</td></tr>
+<tr><td class='l'>BUSE R-SQUARE</td><td>0.891</td><td>&nbsp;</td></tr>
+<tr><td colspan='3'>**, *** denote significance at <i>a</i> = 0.05 and 0.01 respectively</td></tr>
+</table>
+
+<p>exports as expected. The price coefficient is negative which reflects the fact that export prices were relatively static
+over the 1990s (see further discussion below). Quota has a positive and
+significant effect on export direction indicating that both the EU and US take
+more exports after introduction than would otherwise be the case. Finally, the
+HACCP coefficient is positive and significant which shows that adopting a food
+safety management program like HACCP has had a positive impact on export
+direction since it was introduced.</p>
+
+<p>This estimation excludes China where demand for lamb has been rapidly increasing. If China is included, GDP.imp becomes significant and positive, POPnz is non-significant, POPimp becomes negative, the PROD effect is reduced, QUOTA and HACCP change in size a bit. Significantly, the rapid growth of incomes in China
+tips the result towards a more income elastic model for the whole meat trade
+and suggests income elasticities &gt; unity but price elasticities from -0.8 to 
+-1.75 (including China). Our interpretation of the high negative price
+coefficient is that China was buying at the high price end of the market in the
+early 1990s (possibly for the hotel trade) as well as continuing low returns in
+other markets as reported above. Since this result is replicated in other
+specifications, we deduce that NZ producers have been fighting a declining
+terms of trade phenomenon through most of the 1990s although traded prices have
+risen since 1997.</p>
+
+<p>If beef and lamb are run separately, the broad pattern of results in Table 2 is repeated. Beef and lamb quantities exported are reported separately and we have calculated f.o.b. prices for each
+from the values and quantities reported. Both have an importer's income
+elasticity around 0.7, the price elasticity is -0.7 to -0.3, both have a
+positive response to quota; but DIST is negative for beef and positive for
+lamb, beef is affected by importers PROD while lamb is not, and beef has a
+negative response to HACCP whereas lamb is positive.(all including China).
+Omitting China does not change any sign for lamb though the elasticities vary.
+For beef, the high income elasticity disappears, DIST turns positive, PRICE and
+PROD stay the same, but HACCP turns positive, and QUOTA margin is positive but
+non-significant.</p>
+
+<p>So we end with a dilemma. Include more data or be selective in our choice of countries? The problem with China in the early 90s is the lack of a record of trade. Some missing plot technique is probably
+required as the inclusion of China reflects the recent quick growth of lamb
+exports as shown in Table 1. This is part of the total policy mix and we need
+to reflect it. There are also markets which once were important (e.g. Iran and
+Russia) but have since dropped away.</p>
+
+<h2>7. Summary and Conclusions</h2>
+
+<p>This paper picks up a theme from last year's conference. It establishes more thoroughly the broad market conditions faced by NZ for meat products. We like the broad presentation of market trends
+because it is presented in traditional framework of elasticities and
+destinations. Desk policy officers tend to think of the crisis of the day and
+not the broad picture. This information adds to the quality of the informaton
+on the market as a whole. The model comes with statistical tests that spell out
+that the main coefficients (and hence trends shown) have a high degree of
+repeatibility and therefore reliance for policy positions. </p>
+
+<p>We like the high response for income elasticity when new markets are included, and the terms of trade implication arising from the unit price variable. HACCP is a small effect but significant
+in most cases though not for the beef estimation. The latter result tends to
+show that in the US market there was no significant shift in supply after HACCP
+becoming mandatory. Perhaps compliance with the US standards was already very high?.</p>
+<p>&nbsp;</p>
+<h2>8. References</h2>
+
+<p>Bergstrand J H (1985), The Gravity Equation in International Trade: Some Microeconomic
+Foundations and Empirical Evidence, <i>The Review of Economics and Statistics</i>.</p>
+
+<p>Bergstrand J H (1989), The Generalised Gravity Equation, Monopolistic Competition, and the
+Factor-Proportions Theory in International Trade, <i>The Review of Economics and Statistics</i>.</p>
+
+<p>Cao K and Scrimgeour F (2003), <i>Assessing the Competitiveness of the New Zealand Meat Industry: Does Food Safety Standards Help?</i>, Paper presented to Winter Conference of New Zealand
+Agricultural and Resource Economics Society, Blenheim.</p>
+
+<p>International Monetary Fund (2003), International Financial Statistics Yearbook, Washington.</p>
+
+<p>Otsuki T and Wilson J S (2000), Food Safety Regulations and Global Food Trade Patterns, American Agricultural Economics Association Annual Meeting.</p>
+
+<p>Petrey L A and Johnson R W M (1993), Agriculture in the Uruguay Round: Sanitary and Phytosanitary Measures, <i>Review of Marketing and Agricultural Economics 61(3), 433-442</i>.</p>
+
+<p>Rose A K (2002a), Do WTO Members have More Liberal Trade Policy?, (<a href="http://faculty.haas.berkeley.edu/rose">http://faculty.haas.berkeley.edu/rose</a>)</p>
+
+<p>Rose A K (2002b), Do We Really Know that the WTO Increases Trade?, <i>NBER Working Paper 9273</i>, Cambridge.</p>
+
+<p>Wilson J S, Otsuki T and Majumbar B (2003), Balancing Food Safety and Risk: Do Drug Residue Limits Affect International Trade in Beef?, American Agricultural Association Annual Meeting, Montreal.</p></div>
+
+<div><br clear=all>
+<hr align=left size=1 width="33%">
+<div style='' id=ftn1>
+<p><a href="#_ftnref1" name="_ftn1" title="">(1)</a> Graduate Student, Waikato University, and Consulting Economist, Wellington, respectively. Assistance from Richard Wallace (MAF), Matthew Newman
+(MWI), and Scott Gallacher (MeatNZ) is acknowledged. We also would like to acknowledge the financial
+support from the Department of Economics, University of Waikato for the
+purchase of some parts of the data in the analysis. Comments from two reviewers
+have been taken into account.</p>
+</div>
+
+<div style='' id=ftn2>
+<p><a href="#_ftnref2" name="_ftn2" title="">(2)</a> As per capita income (Y/L) is expected to have positive sign, L is expected to have negative sign</p>
+</div>
+
+<div style='' id=ftn3>
+<p><a style='' href="#_ftnref3" name="_ftn3" title="">(3)</a> China is excluded due to some data missing during the 1900-2003 period</p>
+</div>
+
+<div style='' id=ftn4>
+<p><a style='' href="#_ftnref4" name="_ftn4" title="">(4)</a> This is year ending June 2000. Also please note that we do not include the effects of disease outbreak (eg. BSE in Canada and USA) as this
+just happened recently, outside the studied period.</p>
+</div>
+</div>
+</body>
+</html>

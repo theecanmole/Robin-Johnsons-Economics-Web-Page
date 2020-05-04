@@ -1,0 +1,581 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="generator" content="Bluefish 1.0.7"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="R W M Johnson, research and development, agricultural economics, New Zealand" lang="en-nz" />
+<link href="style.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="print.css" type="text/css" rel="stylesheet" media="print" />
+<title>The Rate of Return to New Zealand Research and Development Investment</title>
+</head> 
+<body>
+<div id="TopLayer">
+<p class="nav">
+<a href="http://homepages.paradise.net.nz/johnso14/">Robin Johnsons economics webpage</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="Javascript:self.print()">Print this page</a></p></div>
+
+<h1>The Rate of Return to New Zealand Research and Development Investment<a class="f" name=
+"sdfootnote1anc" href="#sdfootnote1sym" id=
+"sdfootnote1anc"><sup><font size="2">(1)</font></sup></a></h1>
+
+<p class="by">by</p>
+
+<p class="by">Robin Johnson</p>
+
+<h5>Abstract</h5>
+<p class="abstract">There has been considerable debate in recent years about the relative merits of private and public research and development (R&D) investment in New Zealand. There has been a distinct lack of measurement in this area. This paper reports work on formulating a data set on past investment in R&D and results of econometric measurement of the respective rates of return. Results are available for the agriculture, fishing, forestry, processing, manufacturing, energy, building, transport and service sectors as well as the total market sector. The results indicate low rates of return to public investment in R&D and promising rates of return to private R&D in some individual sectors. There are positive responses to off-shore supplies of R&D and the level of educational investment in New Zealand in some sectors.</p>
+
+<h2>Introduction</h2>
+
+<p>The level of research and development (R&D) investment in New Zealand has been dominated by Government investment for many years. In the 1980's reforms of science providers, the issue was identified as one of <q>crowding out</q> of the private sector (NZIER 1987). In the reform process, bidding was introduced for government science funds, research departments were converted to stand-alone research institutes, and a national agenda of priorities was drawn up. Implicit in the reforms was the view that public expenditure had invaded many areas where private participation was more appropriate.</p>
+
+<p>This view of the science industry was based on detailed qualitative analysis of past and present research results and current views of appropriate governance mechanisms for public research. There was no comprehensive research into the issues of relative rates of return to the respective types of R&D due to the lack of a comprehensive data base. There had been some detailed sector studies which showed surprisingly high rates of return (Dick et al 1967, Scobie and Eveleens 1986).  The particular problem was a lack of information on research expenditure in the private sector and to a lesser extent, in the universities. This was ultimately remedied in the Ministry of Research, Science and Technology (MoRST) surveys which commenced in 1989 (MoRST var).</p>
+
+<p>This paper, therefore, sets out the results of a project to estimate R&D expenditure for the public sector, the private sector and the universities back to 1962. With this information available, a rate of return model was developed using sectoral productivity indices from the Victoria University Project on Planning files (Philpott 1994, 1995, 1999), and measures of public and private R&D stocks derived from the above expenditure data set. In addition, explanatory variables representing off-shore stocks of R&D and educational investment in New Zealand were included.
+</p>
+
+<p>The paper starts with a discussion of the construction of the R&D data base, then the theoretical model employed for the estimation equations. These are followed by tables showing the econometric results and a discussion of their implications.</p>
+
+<h2>Building the Data Set</h2>
+
+<p>Since 1989, MoRST have carried out annual or semi-annual surveys of R&D expenditure in New Zealand (MoRST var). These carefully delineate research expenditure in the major providers of research, government, firms and universities, and also identify which productive sectors the research is aimed at. The surveys also carefully differentiate between funding functions and provider functions. Thus for the period 1989-90 to 1995-96 there is a detailed record of research expenditure on a provider and a funder basis  including the designated sectors to which the research was directed. It is the provider basis which is adopted in this paper.</p>
+
+<p>For the period back to 1962, the record of Government expenditure is almost complete. Total departmental funding is faithfully recorded in the Department of Statistics' Yearbooks and designated areas of research are identified on a broad basis. Some extrapolation of data was required to get sectoral expenditure back to 1962 on a consistent basis.</p> 
+
+<p>In combination with the productive sectors recognised in the MoRST surveys, these Yearbook records determined the number of sectors which could be analysed for the whole period of the analysis. As the productivity data is presented on a national accounting basis (SNA), the following schema shows the sectoral allocation possible:</p>
+<div align="center">
+<table align="center" border="0" summary="R &amp;D national accounting basis sectoral allocation">	
+	<tr class="left"><td width="30%"><u>Research sector</u></td>	<td><u>SNA sector</u></td></tr>
+  	<tr class="left"><td>Agriculture</td>		<td>Agriculture</td></tr>
+	<tr class="left"><td>Fishing</td>				<td>Fishing</td></tr>
+	<tr class="left"><td>Forestry</td>			<td>Forestry</td></tr>
+	<tr class="left"><td>Processing</td>			<td>Food, Wood, Paper,Textiles</td></tr>
+	<tr class="left"><td>Manufacturing</td>		<td>Mining, Basic Metal, Chemicals, Non-Metallics, Machinery</td></tr>
+	<tr class="left"><td>Energy</td>				<td>Electricity, Gas and Water</td></tr>
+	<tr class="left"><td>Building</td>			<td>Building and Construction</td></tr>
+	<tr class="left"><td>Transport</td>			<td>Transport and Storage</td></tr>
+	<tr class="left"><td>Services</td>			<td>Trade, Communications, Finance, Community Services</td></tr>
+	<tr class="left"><td>Total Market</td><td>Production sector (Ownership of Occupied Dwellings and Government are excluded)</td>
+	</tr>
+</table>
+</div>
+<p>For total private R&D expenditure in the years before 1989, the ratio of private R&D to government R&D in 1989 was extrapolated back to 1962 as a percentage of GDP. Since 
+Government expenditure as a percentage of GDP in the 1970s was rising, the same proportions were applied to private expenditure<a class="f" name="sdfootnote2anc" href="#sdfootnote2sym" id=
+"sdfootnote2anc"><sup>(2)</sup></a>. Sectoral private expenditure was established for the years 1962-88 from the proportions of the 1989 survey. There is also evidence from the Manufacturers Federation (Manfed) surveys in the 1980s and the Science and Technology Advisory Committee reports (ManFed 1984, 1987; STAC 1988).</p>
+
+<p>For university expenditure on R&D back to 1962, a fixed proportion of Vote Education &ldquo;expenditure on university education&rdquo; was used (data from the Yearbooks). From the period 1989-96 it was established that 30 per cent of the bulk grant could be roughly identified as being used for research purposes in the time of university staff<a class="f" name="sdfootnote3anc" href="#sdfootnote3sym" id="sdfootnote3anc"><sup>(3)</sup></a>. This is a fairly rough measure but is reasonably consistent  over the time period concerned as it is based on published data back to the 1960s. University research was allocated to sectors in proportion to Government expenditure.</p>
+
+<p>Total expenditure on R&D was then deflated by the GDP implicit deflator to obtain real R&D expenditure as shown in <a class="f" name="table1anc" href="#table1sym" id="table1anc">Table 1</a>. The choice of the GDP deflator was based on the high labour component of expenditure on R&D<a class="f" name="sdfootnote4anc" href="#sdfootnote4sym" id=
+"sdfootnote4anc"><sup>(4)</sup></a>. For the purposes of later calculations, government and university real expenditures as providers were combined into real <q>public</q> expenditure.</p>
+
+
+<h2>The Production Function Approach to the Rate of Return on R&D</h2>
+
+<p>The aim is to estimate the contribution of R&D to economic growth by calculating multi-factor productivity in a growth accounting framework, and then econometrically estimating how much of the multi-factor productivity can be explained by knowledge stocks, while controlling for other possible influences on measured productivity (Industry Commission 1995). Another way is by econometrically estimating a production function directly, in which output is a function of labour, capital, the stock of knowledge capital and some additional variable.</p>
+
+<p>The two approaches are related. Both can be derived from a production function of the form:</p>
+
+<p class='blocktext'>(1)  &nbsp;&nbsp;<i>Y =  A K<sup>a</sup> L<sup>b</sup></i>,</p>
+
+<p>where</p>	
+		<p class='blocktext'><i>Y</i> is output:</p>
+		<p class='blocktext'><i>A</i> is productivity;</p>
+		<p class='blocktext'><i>K</i> is the stock of physical capital; and</p>
+		<p class='blocktext'><i>L</i> is labour. </p> 
+
+<p>If productivity can be explained by the stock of knowledge capital and other factors, then equation (1) can be rewritten as:</p>
+
+<p class='blocktext'>(2) &nbsp;&nbsp;<i>Y = K<sup>a</sup> L<sup>b</sup> R<sup>g</sup>  Z<sup>s</sup></i>, </p>
+
+<p>where</p>	
+
+<p class='blocktext'><i>R</i> is the stock of knowledge capital; and</p>
+
+<p class='blocktext'><i>Z</i> is other factors affecting measured productivity.</p>
+
+<p>In the production function approach, a log linear version of equation (2) is estimated directly:</p>
+ 
+<p class='blocktext'>(3) &nbsp;&nbsp;<i>ln Y =  a ln K + b ln L + g ln R + s ln Z</i>,      </p>   
+
+<p>with no further restrictions placed upon the parameters. The estimate of <i>g</i> would provide a direct estimate of the percentage increase in output obtainable from a one per cent increase in knowledge stocks, holding all other factors  constant.</p>
+
+<p>In the two-step productivity approach, equation (3) would be rewritten as :</p>
+
+<p class='blocktext'>(4) &nbsp;&nbsp;<i>ln Y - a ln K - b ln L  =  g ln R + s ln Z</i></p>
+
+<p>Under the additional assumptions that <i>a</i> + <i>b</i> = 1 and that <i>a</i> and <i>b</i> equal capital and labour income shares, the left-hand side of (4) equals multi-factor productivity (in level, not growth form), as conventionally measured in a growth accounting framework. Observations on multi-factor productivity can then be regressed on the variables shown on the RHS.</p>
+
+<p>In either case, estimates of the parameter <i>g</i> can be converted from an elasticity to an overall rate of return <i>dY/dR</i> as given by:</p>
+
+<p class='blocktext'>(5) &nbsp;&nbsp;<i>dY/dR = g (Y/R)</i>.</p>
+
+<p>The capital variable  <i>K</i> is derived from capital expenditure data by the perpetual inventory method:</p>
+
+<p class='blocktext'>(6) &nbsp;&nbsp;<i>K<sub>t</sub>   =  (1 - f) K<sup>t-1</sup> + E<sub>t-1</sub></i></p>   
+
+<p>where</p>	
+<p class='blocktext'><i>K<sub>t</sub></i> = the stock of conventional capital at the beginning of period <i>t</i> in constant prices;</p>
+<p class='blocktext'><i>K<sub>t-1</sub></i> = the stock of capital at the beginning of period <i>t-1</i>;</p>
+<p class='blocktext'><i>E<sub>t-1</sub></i> = capital expenditure during period <i>t-1</i> in constant prices; and</p>
+<p class='blocktext'><i>f</i> = the depreciation or obsolescence rate of capital.</p>
+
+<p>In this study, Philpott's data on capital employed in different sectors is employed. Philpott does not use diminishing balance depreciation rates but substitutes a formula taking in the average life of assets (Philpott 1994).  These estimates of the capital employed are about 50 per cent greater than those determined by book depreciation methods (Philpott 1995).</p> 
+
+<p>The perpetual inventory method is also applied to the R&D variables. The expenditures shown in Table 1 are treated the same as in  equation (6). Knowledge is regarded as a stock of available technologies which can be added to and subtracted from. The reduction process can be treated as the depreciation factor. The initial stock of knowledge has to be established from the available data by a formula of the kind:</p>
+	
+<p>(7) &nbsp;&nbsp;<i>S<sub>o</sub> =  E<sub>o</sub> /  (e + f) ,</i></p>
+
+<p>where</p>	
+<p class='blocktext'><i>S<sub>o</sub></i> =  the stock of R&D capital at the beginning of the first year for which expenditure data is available;</p>
+
+<p class='blocktext'><i>E<sub>o</sub></i> =  the annual expenditure on R&D (in constant prices) during the first year;</p>
+<p class='blocktext'><i>e</i> = the average annual logarithmic growth of R&D expenditures for the nearest relevant years; and</p>
+<p class='blocktext'><i>f</i> = the depreciation or obsolescence rate of knowledge.</p>
+
+<p>The assumption is that if the stock had been growing <i>before</i> the first year at a certain rate, then the estimate of the total starting stock will be that much higher than it would have been if expenditure were capitalised by the rate of depreciation alone. In the estimates used in this paper <i>e</i> was estimated for the first ten years after 1962, and <i>f</i> was set at 5 per cent per year. Thus the starting stock for the market sector is:</p>
+
+<p class="blocktext">(8) &nbsp;&nbsp;<i>S<sub>o</sub></i> =  $86.3m / (0.1 + 0.05)</p>
+		     
+<p class="blocktext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>S<sub>o</sub></i> = $575.3m (in $1982-83)</p>   
+
+<p> The choice of a rate of depreciation of a knowledge stock is a difficult question. It seems clear that new inventions and ways of doing things replace older inventions and ways. The stock is thus a moving entity - constantly wasted and constantly replenished. Evidence is lacking on what is the appropriate course of action. Scobie and Eveleens (1986) note that &ldquo;average research results are slowly incorporated into practice and their impact on productivity increases [in agriculture] reaching a peak after 11 years, and finally tailing off after a total of 23 years&rdquo;. This suggest a &ldquo;life&rdquo; of research of about 20 years with the maximum effect in the mid years of that period. Thus a rate of 5-10 per cent might be quite appropriate for a country like New Zealand - the results presented here are calculated at 5 per cent (this is discussed further in the technical appendix).</p>
+
+<p>The resulting calculations at the national level are shown in <a class="f" name="table2anc" href="#table2sym" id="table2anc">Table 2</a>. These numbers represent the notional capital stocks of R&D knowledge in real terms available to producers and firms who might benefit from their availability. In the New Zealand case, the stocks are largely public goods in the economic sense, freely available to anyone and not subject to diminishment if used by others. What is called &ldquo;private&rdquo; stock here is that generated by the private sector in situ rather than any privately held stock of knowledge in a legal sense.</p>
+
+<h2>Productivity Performance</h2>
+
+<p>Productivity indices are made up from the formula in equation (4). The Total Factor Productivity Index (TFP) is the net output of an industry divided by the weighted sum of the labour and capital inputs used. In national accounting terms the ratio is:</p>
+
+<p class="blocktext">(9) &nbsp;&nbsp;<i>TFP<sub>i</sub> = Y<sub>i</sub> / a<sub>i</sub>L<sub>i</sub> + b<sub>i</sub>K<sub>i</sub></i></p>
+
+<p>where <i>a<sub>i</sub></i> and <i>b<sub>i</sub></i> are the average factor shares of income in nominal terms for the  ith industry. For example, in the market sector as a whole the share of L is  0.60 and K is 0.40.</p>
+
+<p>The actual data and factor shares from the Philpott data set are available in the form:</p>
+	<p class='blocktext'>a. Real GDP by SNA Industry Group ($m in 1982-83 prices).
+	<br>b. Employment in SNA Industry Groups (1,000 full time equivalents).
+	<br>c. Real Gross Capital Stock by SNA Industry Group ($m in 1982-83 prices).
+	<br>d. Average Factor Shares in Nominal $.</p>
+
+<p>The TFP index can be regarded as the weighted mean of the labour and capital productivity indices:</p>
+
+<p class='blocktext'>(10)&nbsp;&nbsp;<i>TFP<sub>i</sub> = a(Yi / Li) + b(Yi / K i).</i></p>
+
+
+<p>The two components of TFP for the New Zealand market economy and the resulting TFP index are shown in Figure 1.</p>
+
+<p>Figure 1: Components of National Productivity</p>
+
+<p>The TFP indices for each of the 9 sectors are shown in Figures 2, 3, and 4. The rates of growth for each component in each sector are shown in Table 3. Agriculture is the best performer over the period concerned followed by Energy, Transport, Forestry and Processing. Labour productivity is highest in Energy, followed by Fishing, Agriculture and Processing. Capital productivity is highest Agriculture, Energy and Forestry. It is significant that six of the sectors and the market economy as a whole had negative capital productivity.</p>
+
+<p>In a recent Treasury Working Paper, Diewert and Lawrence (1999) give TFP growth
+estimates for the period 1978-1998 for each of the SNA industries separately. The highest is for Communications (6.77%), followed by Forestry (6.34%), Mining (4.92%) and Agriculture (3.87%). Manufacturing industries are all below 2.4%.</p>
+
+<p>Figure 2: TFP for Agriculture, Fishing and Forestry</p>
+
+
+
+
+<p>Figure 3: TFP for Primary Processing, Manufacturing and Energy</p>
+
+
+<p>Figure 4: TFP for Building, Transport and Services</p>
+ 
+
+<table align="center" class="c2" summary="Table 3: Productivity Growth Rates 1962-1998">
+<tr><th colspan="5">Table 3: Productivity Growth Rates 1962-1998 (% per annum)</th></tr>
+
+<tr><td class="l">Sector</td><td>GDP</td><td>Labour</td><td>Capital</td><td>TFP<sup>1</sup></td></tr>
+
+<tr><td class="l">Agriculture</td><td>3.6</td><td>4.0</td><td>3.0</td><td>3.6</td></tr>
+<tr><td class="l">Fishing</td><td>5.1</td><td>4.1</td><td>-0.6</td><td>2.0</td></tr>
+<tr><td class="l">Forestry</td><td>3.5</td><td>2.1</td><td>2.2</td><td>2.1</td></tr>
+<tr><td class="l">Processing</td><td>3.1</td><td>2.8</td><td>-0.5</td><td>2.1</td></tr>
+<tr><td class="l">Manufacturing<sup>2</sup></td><td>2.5</td><td>1.7</td><td>-2.9</td><td>0.3</td></tr>
+<tr><td class="l">Energy</td><td>5.0</td><td>5.4</td><td>2.0</td><td>3.4</td></tr>
+<tr><td class="l">Building &amp; Construction</td><td>1.1</td><td>0.8</td><td>-0.1</td><td>0.4</td></tr>
+<tr><td class="l">Transport</td><td>2.8</td><td>2.9</td><td>-0.2</td><td>2.3</td></tr>
+<tr><td class="l">Services<sup>3</sup></td><td>2.8</td><td>0.3</td><td>-2.3</td><td>-0.5</td></tr>
+
+<tr><td class="l">Market Economy<sup>4</sup></td>	<td>2.7</td>		<td>1.5</td>		<td>-0.6</td>		<td>0.9</td></tr>
+
+<tr><td class="l" colspan="5"><sup>1</sup> Industry weights<br>
+<sup>2</sup> Includes Mining, Chemicals, Metals and Machinery.<br>
+<sup>3</sup> Includes Trade, Commerce, Finance & Communications.<br>
+<sup>4</sup> Excludes Ownership of Occupied Dwellings and Government Services.</td></tr>
+
+<tr><td colspan="5">Sources: Philpott 1994, 1995, 1999.</td></tr>
+</table>
+
+<h2>The rate of return to R&D</h2>
+
+<p>The hypothesis to be tested is that changes in sector productivity can be explained partly or wholly by changes in private and public R&D in New Zealand. To allow for other influences, the stock of Australian business R&D (Lattimore 1997, Table A2) is used as a proxy for external sources of R&D (external spillovers), and real expenditure on education in New Zealand is used as a proxy for changes in other factors. This could reflect upgrading of skills outside the physical measures of labour and capital and R&D. Thus:</p>
+
+<p class='blocktext'>(11)&nbsp;&nbsp; <i>TFP<sub>i</sub> = f( PVT R&Dt<sub>i</sub>, PUB R&D<sub>i</sub>, EXT R&D<sub>all</sub>, EDULEVELS<sub>all</sub>)</i></p>
+
+<p>Depending on tests for serial correlation, this basic hypothesis is used throughout the analysis. Some preliminary analysis was also explored that searched for spillover relationships between own-industry R&D and other-industry R&D. In the complementary case, firms get more effect by using both types of R&D together than using them on their own. In the substitution case, the multiplicative effect is negative, and the types of research are effective substitutes for each other. This hypothesis can be tested on both public and private R&D. The agriculture sector is examined in Table 6 below.</p>
+
+<p>Table 4 shows the main regression results across the whole sample of the data.</p>
+
+<table align="center" class="c2" summary="Table 4: Determinants of Total Factor Productivity 1962-98">
+<tr><th colspan="11">Table 4: Determinants of Total Factor Productivity 1962-98</th></tr>
+<tr><td colspan="11">&nbsp;</td></tr>
+<tr><td class="l">Explanatory Variables</td><td>Agr</td><td>Fish</td><td>For</td><td>Proc</td><td>Man</td><td>En</td><td>B/C</td><td>Trans</td><td>Ser</td><td>Mar</td></tr>
+
+<tr><td colspan="11" class="l"><i>Stocks of R&D</i></td></tr>
+
+<tr><td class="l">Private</td><td>2.59</td><td>-0.68</td><td>-0.71</td><td>0.74</td><td>0.46</td><td>0.05</td><td>0.25</td>	<td>0.03</td>	<td>-0.30</td>	<td>0.34</td></tr>
+
+<tr><td>t-values</td><td>(6.2)</td><td>(-1.1)</td><td>(-3.3)</td><td>(2.7)</td>	<td>(1.2)</td><td>(0.2)</td><td>(1.8)</td><td>(0.3)</td><td>(-2.4)</td><td>(3.0)</td></tr>
+<tr><td colspan="11">&nbsp;</td></tr>
+<tr><td class="l">Public</td><td>-2.32</td><td>1.18</td><td>0.37</td><td>-0.23</td><td>-0.81</td><td>0.17</td><td>-0.12</td><td>-0.15</td><td>0.15</td><td>-0.35</td></tr>
+
+<tr><td>t-values</td><td>(-6.2)</td><td>(1.8)</td><td>(2.7)</td><td>(-0.8)</td><td>(-2.1)</td><td>(1.4)</td><td>(-0.81)</td><td>(-1.7)</td><td>(1.2)</td><td>(-3.3)</td></tr>
+<tr><td colspan="11">&nbsp;</td></tr>
+<tr><td class="l">External</td> <td>-0.43</td><td>-0.7</td><td>1.59</td><td>0.02</td><td>0.42</td><td>0.37</td><td>-0.31</td>	<td>0.79</td><td>0.11</td><td>0.15</td></tr>
+
+<tr><td>t-values</td><td>(-2.4)</td><td>(-0.1)</td><td>(6.3)</td><td>(0.2)</td><td>(4.9)</td>	<td>(4.3)</td><td>(-1.4)</td><td>(14.8)</td><td>(3.2)</td><td>(4.6)</td></tr>
+<tr><td colspan="11">&nbsp;</td></tr>
+<tr><td colspan="11" class="l"><i>Additional Variables</i></td></tr>
+
+<tr><td class="l">Education</td><td>0.77</td><td>-0.83</td><td>-0.58</td><td>-0.29</td><td>0.24</td><td>-0.07</td>	<td>0.18</td><td>-0.19</td><td>-0.04</td><td>0.04</td></tr>
+<tr><td>t-values</td><td>(4.1)</td>	<td>(-2.2)</td><td>(-2.3)</td><td>(-1.7)</td><td>(1.4)</td><td>(-0.4)</td><td>(0.9)</td>	<td>(-2.1)</td><td>(-0.7)</td><td>(0.8)</td></tr>
+<tr><td colspan="11">&nbsp;</td></tr>
+<tr><td colspan="11" class="l"><i>Summary Statistics</i></td></tr>
+
+<tr><td>R&#178;</td><td>0.95</td><td>0.79</td><td>0.92</td><td>0.94</td><td>0.58</td><td>0.98</td><td>0.58</td><td>0.97</td><td>0.92</td><td>0.95</td></tr>
+
+<tr><td>DW</td><td>1.97</td><td>0.68</td><td>0.75</td><td>1.17</td><td>0.91</td><td>1.28</td><td>0.89</td>	<td>1.33</td><td>1.34</td><td>0.79</td></tr>
+<tr><td colspan="11">&nbsp;</td></tr>                                                
+<tr><td colspan="11">(NB. figures in parenthesis are t-values)</td></tr>
+</table>
+
+<p>&nbsp;</p>
+<p>This analysis indicates that:<p class="blocktext">Private R&D is positively related to changes in TFP in 7 cases out of 10;
+<br>Public R&D is positively related to changes in TFP in 4 cases out of 10;
+<br>External R&D is positively related to changes in TFP in 7 cases out of 10; and
+<br>Education expenditure is positively related to changes in TFP in 4 cases out of 10.</p>
+
+<p>The R&#178; statistic is very high in 7 cases out of 10, with three equations indicating other explanatory variables should be sought. The DW statistic is satisfactory in 5 cases out of 10 indicating serial correlation is a problem among the independent variables and other transformations of the data should be examined.</p>   
+
+<p>The implications of the results for <i>rates of return on R&D capital</i> are shown in Table 5. In this table the regression coefficients are converted to overall rates of return by means of equation (5).</p>
+
+<p>Thus the rate of return to private R&D is surprisingly high in Agriculture and Building and quite promising over the market sector as a whole. For Forestry and Services the results are perverse. The return on public R&D is low or negative throughout rather confirming the Treasury view over the years that there has been over-investment or under-utilisation in public R&D. Negative returns show that in some sectors TFP has moved against the designated R&D stock on a consistent basis. Further investigation of  rates of return changes some of these results (see appendix note).</p>
+
+<table align="center" class="c2" summary="Table 5: Rates of return">
+<tr><th colspan="11">Table 5: Rates of return</th></tr>
+
+<tr><td colspan="11">&nbsp;</td></tr>
+
+<tr><td class="l">Category</td><td>Agr</td><td>Fish</td><td>For</td><td>Proc</td><td>Man</td><td>En </td><td>B/C</td><td>Trans</td><td>Serv</td><td>Mark</td></tr>
+
+<tr><td class="l">Private R&amp;D%</td><td>61.2</td><td>nil</td><td>nil</td><td>8.2</td><td>7.1</td><td>1.5</td>	<td>27.4</td><td>4.0</td><td>nil</td><td>10.2</td></tr>
+
+<tr><td class="l">Public R&amp;D%</td><td>nil</td><td>1.0</td><td>1.0</td><td>nil</td><td>nil</td>	 <td>2.3</td><td>nil</td><td>nil</td><td>0.9</td><td>nil</td></tr>
+
+<tr><td class="l">External R&amp;D%</td><td>nil</td><td>nil</td><td>3.8</td><td>0.1</td><td>0.1</td>	 <td>0.1</td><td>nil</td><td>0.1</td><td>0.1</td><td>0.3</td></tr>
+
+<tr><td class="l">Education per $</td><td>0.9</td><td>nil</td><td>nil</td><td>nil</td><td>0.2</td>	 <td>nil</td><td>0.2</td><td>nil</td><td>nil</td><td>0.7</td></tr>
+<tr><td colspan="11"><i>(nil = negative or non-significant)</i></td></tr>
+</table>
+
+<p>The response (in Table 4) to Australian investment in R&D suggests that improvements in production may well free-ride on other R&D than that generated in NZ. Only Agriculture and Building move against this trend. The positive response to education in Agriculture, Manufacturing, and Building, is suggestive of industries with a need for higher skills. The coefficients are not highly significant.</p> 
+
+<h2>Spillovers in Agriculture</h2>
+
+<p>In this section possible spillovers between private R&D stocks in a sector and other non-industry private R&D stocks, and between public R&D stocks and other non-industry public R&D stocks, are examined. Also the serial correlation problem existing between private and public stocks of R&D is examined by amalgamating the two variables. The results are set out in Table 6.</p>
+
+<p>In the first half of Table 6, the results indicate amalgamated private and public R&D in agriculture gives inconclusive results; external R&D is dominant; serial correlation is present in all equations; non-industry R&D in the rest of the economy is significant; and other non-industry R&D tends to be a complement to agricultural R&D.</p>
+
+<p>In the second half of  Table 6, the strong return to private R&D in agriculture is re-confirmed; the return to public R&D is generally negative again; serial correlation is absent; private R&D in the rest of the economy is nearly significant but public R&D in the rest of the economy is not;  non-industry private R&D in the rest of the economy is a substitute for private own-industry R&D (but not at a significant level); public R&D in the rest of the economy is not significant on its own but acts as a substitute at a significant level when combined with public own-industry R&D designated to agriculture.</p> 
+
+<p>The return on private R&D investment in agriculture varies between $30 and $85 per $ of depreciated research stocks (as compared with $68.7 in Table 5).</p>
+
+<table align="center" class="c2" summary="Table 6: Sensitivity Analysis for Agriculture">
+<tr><th colspan="7">Table 6: Sensitivity Analysis for Agriculture</th></tr>
+<tr><td colspan="7">&nbsp;</td></tr>
+<tr><td class='l'>Variable</td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td></tr>
+
+<tr><td class='l'>a. AmalgR&D</td><td>0.41</td><td>-0.35</td><td>0.04</td><td>-0.03</td><td>-4.1</td><td>-4.2</td>
+</tr>
+<tr><td>&nbsp;</td><td>(10.4)</td>	<td>(-0.1)</td>	<td>(0.2)</td>	<td>(-0.3)</td>	<td>(-6.6)</td>	<td>(-6.4)</td></tr>
+
+<tr>
+<td class='l'>b. External</td><td>&nbsp;</td><td>0.63</td><td>&nbsp;</td><td>0.61</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td><td>&nbsp;</td><td>(7.3)</td><td>&nbsp;</td><td>(5.9)</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr>
+<td class='l'>c. Education</td><td>&nbsp;</td><td>&nbsp;</td><td>0.78</td><td>0.09</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>(2.9)</td><td>(0.4)</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+
+<tr><td class='l'>d. Amalg Non R&D</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>4.62</td><td>4.95</td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>(7.3)</td><td>(3.9)</td></tr>
+
+<tr><td class='l'>e. ln a * ln d</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+<td>&nbsp;</td><td>-0.02</td></tr>
+
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+<td>&nbsp;</td><td>(-0.3)</td></tr>
+
+<tr><td class='l'><i>R</i>&#178;</td><td>0.75</td><td>0.90</td><td>0.80</td><td>0.91</td><td>0.90</td><td>0.90</td></tr>
+
+<tr><td class='l'><i>DW</i></td><td>0.30</td><td>0.76</td><td>0.43</td><td>0.76</td><td>0.76</td><td>0.76</td></tr>
+<tr><td colspan="7">&nbsp;</td></tr>
+<tr><td class='l'>f. Pvt R&D</td><td>1.28</td><td>3.59</td>	<td>1.93</td>	<td>2.89</td>	<td>2.87</td></tr>
+<tr><td>&nbsp;</td><td>(3.0)</td><td>(5.2)</td>	<td>(5.3)</td> 	<td>(7.2)</td>	<td>(11.5)</td></tr>
+
+<tr><td class='l'>g. Pub R&D</td><td>-1.68</td><td>-2.70</td><td>-1.08</td><td>0.10</td><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td><td>(-6.6)</td><td>(-7.9)</td><td>(-1.01)</td><td>(0.08)</td><td>&nbsp;</td></tr>
+<tr><td class='l'>h. Non-Pvt R&D</td><td>0.78</td><td>1.79</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>	
+<tr><td>&nbsp;</td><td>(1.4)</td><td>(3.3)</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td class='l'>i. ln f * ln h</td><td>&nbsp;</td><td>-0.22</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>	
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>(-3.9)</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td class='l'>j. Non-Pub R&D</td><td>&nbsp;</td><td>&nbsp;</td><td>-0.49</td><td>0.21</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>(-0.37)</td><td>(0.2)</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td class='l'>k. ln g * ln j</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>-0.21</td><td>-0.19</td><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>(-3.7)</td><td>(-9.9)</td><td>&nbsp;</td></tr>
+	
+<tr><td class='l'><i>R</i>&#178;</td><td>0.94</td><td>0.96</td><td>0.93</td><td>0.95</td><td>0.95</td><td>&nbsp;</td></tr>
+<tr><td class='l'>DW</td><td>1.12</td><td>1.62</td><td>1.10</td>	<td>1.58</td>	<td>1.58</td><td>&nbsp;</td></tr>
+</table>
+<p>&nbsp;</p>
+<h2>Discussion</h2>
+
+<p>As far as the data is concerned, the aggregate estimates of R&D expenditure back to 1962 are fairly robust and the division between private and public R&D is very good. The disaggregation of total private and public R&D expenditure into the respective sectors is not at the same level of accuracy and reflects a set of approximations, especially in the allocation of private R&D. The public R&D disaggregation is based on quite good historical data. Public and private stocks are dependent on the depreciation assumption, and results so far indicate a lack of sensitivity to the rates used. The actual stocks of public and private R&D tend to be highly correlated, though amalgamating them in the agricultural analysis does not produce better results.</p> 
+
+<p>Private R&D tends to show higher and more positive returns than public R&D across all sectors. Some quite high returns to R&D are apparent. There are unexplained associations with external sources of R&D (as represented by the Australian stocks of private R&D) that suggest public good characteristics in the knowledge industry and considerable transfer of ideas in the user community. In some sectors, the level of real education expenditure indicates a skilling attribute in the labour force, but is relatively unimportant.</p>
+ 
+<p>In the agriculture sector, amalgamated R&D (private+public) does not appear to work in a statistical sense. External R&D seems to be the main causative factor when this variable is used. There is a suggestion that non-agricultural research stocks have positive effects on agricultural TFP which is consistent with wide transfers of ideas between sectors. There is a small complementarity between designated total R&D in agriculture and non-designated total R&D in the rest of the economy.</p>
+
+<p>However, using private non-industry R&D and public non-industry R&D as variables appears to stabilise the estimation equations from a serial correlation point of view. The positive effect appears to come from private R&D rather than public R&D. There are clear indications in this last set of estimations that both private and public non-industry R&D act as substitutes for own-industry R&D. This result tends to confirm the public pool concept of R&D rather than seeing it as a private good which is appropriable.</p>
+
+<p>Having established this data base of R&D in New Zealand for the years since 1962, more research could profitably be undertaken on the lagged responses of productivity to research investment in each sector as well as improving the statistical properties of the regression results. There may also be refinements of the data set that could be accomplished with further investigation of data sources (see appendix note).</p>
+
+<h2>References</h2>
+
+<p>Dick  I.D., Toynbee P.A. and Vignaux G.A. (1967), Research as an Investment, NZ 
+	Journal of Science 10, 599-635.</p> 
+<p>Diewert E. and Lawrence D. (1999), Measuring New Zealand's Productivity, Treasury 	Working Paper 99/5.</p>
+<p>Industry Commission (1995), Research and Development, Report no 44, Vols I,II,III, 	Australian Government Publishing Service.</p>
+<p>Lattimore R. (1997), Research and Development Fiscal Incentives in Australia: 
+	Impacts and Policy Lessons, Paper presented to the OECD Conference on 
+	Policy Evaluation in Innovation, Paris, 26-27 June.</p>
+<p>ManFed (1984), Research and Development in the Manufacturing Sector 1983/84, A 	Survey by the NZ Manufacturers' Federation.</p>
+<p>ManFed (1987), Research and Development in the Manufacturing Sector 1987/87, A 	Survey by the NZ Manufacturers' Federation.</p>
+<p>MoRST (Var), NZ Research and Experimental Development Statistics: All Sectors, 	Ministry of Research, Science and Technology.</p>
+<p>NZIER (1987), A Public Policy Framework for Research and Development in NZ, 	Research Monograph 39, Wellington.</p>
+<p>Philpott B.P. (1994), Data base of Nominal and Real Output, Labour, and Capital 	Employed by SNA Industry group 1960-1990, RPEP Paper 265, Victoria University.</p>
+<p>Philpott B.P. (1995), Real Net Capital Stock by SNA Production Groups New Zealand 	1950-1991, RPEP Paper 270.</p>
+<p>Philpott B.P. (1999), Provisional Estimates for 1990-1998 of Output, Labour and 
+	Capital Employed by SNA Industry Group, RPEP Paper 293.</p>
+<p>Scobie G. and Eveleens W. (1986), Agricultural Research: What's it Worth?, Ministry 
+	of Agriculture, Hamilton.</p>
+<p>STAC (1988), Science and Technology Statement 1988, Science and Technology 
+	Advisory  Committee.</p>
+	<p>&nbsp;</p>
+<h2>Endnotes</h2>
+<div id="sdfootnote1">
+<p><a class="sdfootnotesym" name="sdfootnote1sym" href=
+"#sdfootnote1anc" id="sdfootnote1sym">1)</a> Paper presented to the Annual Conference of the New Zealand Association of Economists, Rotorua, 29-30 June 1999. I am glad to acknowledge the advice I have received from Bryan Philpott in preparing this paper, information provided by H Plunkett (Productivity Commission, Canberra) and computational help from Julian Williams and Rod Forbes.</p>
+</div>
+<div id="sdfootnote2">
+<p><a class="sdfootnotesym" name="sdfootnote2sym" href=
+"#sdfootnote2anc" id="sdfootnote2sym">2)</a> Subsequent researchers should not go looking for complementarities between government and private R&D in the data, as it is already built in!</p>
+</div>
+<div id="sdfootnote3">
+<p><a class="sdfootnotesym" name="sdfootnote3sym" href=
+"#sdfootnote3anc" id="sdfootnote3sym">3)</a> I am indebted to Pam Maizir (MoRST) for this suggestion.</p>
+</div>
+<div id="sdfootnote4">
+<p><a class="sdfootnotesym" name="sdfootnote4sym" href=
+"#sdfootnote4anc" id="sdfootnote4sym">4)</a> I am indebted to Bryan Philpott for this suggestion.</p>
+</div>
+<p>&nbsp; </p>
+<p><a name="table1sym" href="#table1anc" id="table1sym">Table 1</a></p>
+<table class="c2" summary="Table 1: Investment in R&D in New Zealand 1962-98">
+<tr><th colspan="8">Table 1: Investment in R&D in New Zealand 1962-98 $m</th></tr>
+<tr><td colspan="8">&nbsp;</td></tr>
+<tr><td>Year</td> <td>Private Sector</td><td>Government Sector</td><td>University Sector</td> <td>Deflator base 82-83</td><td>Private Investment</td> <td>Public Investment</td> <td>Total Investment</td></tr>
+<tr><td>1962</td><td>4.3</td><td>7.6</td><td>2.6</td><td>168</td><td>25.6</td><td>60.7</td> <td>86.3</td></tr> 
+<tr><td>1963</td><td>4.4</td><td>8.1</td><td>2.8</td><td>177</td><td>24.9</td><td>61.6</td><td>86.4</td></tr> 
+<tr><td>1964</td><td>5.1</td> <td>8.7</td> <td>3.1</td> <td>182</td> <td>28.0</td> <td>64.8</td> <td>92.9</td></tr> 
+<tr><td>1965</td> <td>5.9</td> <td>10.5</td> <td>3.4</td> <td>185</td> <td>31.9</td> <td>75.1</td> <td>107.0</td></tr> 
+<tr><td>1966</td><td>6.8</td><td>12.1</td><td>4.1</td><td>191</td><td>35.6</td><td>84.8</td><td>120.4</td></tr> 
+<tr><td>1967</td><td>7.9</td><td>14.2</td><td>4.8</td><td>192</td><td>41.1</td><td>99.0</td><td>140.1</td></tr> 
+<tr><td>1968</td> <td>8.7</td> <td>15.7</td> <td>5.8</td> <td>202</td> <td>43.1</td> <td>106.4</td> <td>149.5</td></tr> 
+<tr><td>1969</td><td>9.7</td><td>17.1</td><td>6.7</td><td>210</td><td>46.2</td><td>113.3</td><td>159.5</td></tr> 
+<tr><td>1970</td> <td>10.8</td> <td>19.9</td> <td>7.7</td> <td>221</td> <td>48.9</td> <td>124.9</td> <td>173.8</td></tr> 
+<tr><td>1971</td> <td>12.8</td> <td>23.1</td> <td>9.8</td><td> 242</td> <td>52.9</td> <td>136.0</td> <td>188.8</td></tr> 
+<tr><td>1972</td><td>15.8</td><td>28.1</td><td>13.1</td><td>278</td><td>56.8</td><td>148.2</td> <td>205.0</td></tr> 
+<tr><td>1973</td><td>19.1</td><td>33.9</td><td>17.8</td><td>307</td><td>62.2</td><td>168.4</td><td>230.6</td></tr> 
+<tr><td>1974</td><td>22.1</td><td>39.7</td> <td>23.1</td><td>333</td><td>66.4</td><td>191.6</td><td>258.0</td></tr> 
+<tr><td>1975</td><td>27.4</td><td>49.4</td><td>27.6</td><td>353</td><td>77.6</td><td>218.1</td><td>295.8</td></tr> 
+<tr><td>1976</td> <td>31.7</td> <td>58.1</td> <td>31.8</td> <td>402</td> <td>78.9</td> <td>223.6</td> <td>302.5</td></tr> 
+<tr><td>1977</td> <td>34.1</td> <td>62.7</td> <td>30.2</td> <td>486</td> <td>70.2</td> <td>191.2</td> <td>261.3</td></tr> 
+<tr><td>1978</td> <td>40.4</td> <td>74.1</td> <td>34.1</td> <td>523</td> <td>77.2</td> <td>206.9</td> <td>284.1</td></tr> 
+<tr><td>1979</td> <td>50.9</td> <td>92.4</td> <td>41.2</td> <td>591</td> <td>86.1</td> <td>226.1</td> <td>312.2</td></tr> 
+<tr><td>1980</td> <td>59.4</td> <td>103.8</td> <td>38.1</td> <td>673</td> <td>88.3</td> <td>210.8</td> <td>299.1</td></tr> 
+<tr><td>1981</td> <td>71.6</td> <td>128.3</td> <td>47.1</td> <td>774</td> <td>92.5</td> <td>226.6</td> <td>319.1</td></tr> 
+<tr><td>1982</td> <td>92.4</td> <td>163.5</td> <td>55.5</td> <td>894</td> <td>103.4</td> <td>245.0</td> <td>348.3</td></tr> 
+<tr><td>1983</td> <td>104.1</td> <td>184.5</td> <td>59.9</td> <td>1000</td> <td>104.1</td> <td>244.4</td> <td>348.5</td></tr> 
+<tr><td>1984</td> <td>115.1</td> <td>187.9</td> <td>61.6</td> <td>1080</td> <td>106.6</td> <td>231.0</td> <td>337.6</td></tr> 
+<tr><td>1985</td> <td>130.4</td> <td>197.1</td> <td>64.1</td> <td>1164</td> <td>112.0</td> <td>224.4</td> <td>336.4</td></tr> 
+<tr><td>1986</td> <td>145.4</td> <td>230.7</td> <td>84.7</td> <td>1329</td> <td>109.4</td> <td>237.3</td> <td>345.7</td></tr> 
+<tr><td>1987</td> <td>176.3</td> <td>226.1</td> <td>105.2</td> <td>1572</td> <td>112.2</td> <td>210.8</td> <td>322.9</td></tr> 
+<tr><td>1988</td> <td>191.7</td> <td>249.4</td> <td>113.9</td> <td>1763</td> <td>108.7</td> <td>206.1</td> <td>314.8</td></tr> 
+<tr><td>1989</td> <td>199.2</td> <td>259.1</td> <td>137.9</td> <td>1910</td> <td>104.3</td> <td>207.9</td> <td>312.1</td></tr> 
+<tr><td>1990</td> <td>217.2</td> <td>290.2</td> <td>139.2</td> <td>2017</td> <td>107.7</td> <td>212.9</td> <td>320.6</td></tr> 
+<tr><td>1991</td> <td>217.1</td> <td>318.2</td> <td>166.3</td> <td>2069</td> <td>104.9</td> <td>234.2</td> <td>339.1</td></tr> 
+<tr><td>1992</td> <td>222.7</td> <td>317.2</td> <td>177.1</td> <td>2096</td> <td>106.3</td> <td>235.8</td> <td>342.1</td></tr> 
+<tr><td>1993</td> <td>229.2</td> <td>312.4</td> <td>232.4</td> <td>2136</td> <td>107.3</td> <td>255.1</td> <td>362.4</td></tr> 
+<tr><td>1994</td> <td>263.3</td> <td>343.4</td> <td>233.5</td> <td>2178</td> <td>120.9</td> <td>264.9</td> <td>385.8</td></tr> 
+<tr><td>1995</td> <td>257.1</td> <td>358.1</td> <td>254.1</td> <td>2214</td> <td>116.1</td> <td>276.5</td> <td>392.6</td></tr> 
+<tr><td>1996</td> <td>252.5</td> <td>375.6</td> <td>273.5</td> <td>2258</td> <td>111.8</td> <td>287.5</td> <td>399.3</td></tr> 
+<tr><td>1997</td> <td>263.4</td> <td>395.1</td> <td>282.2</td> <td>2287</td> <td>115.2</td> <td>296.2</td> <td>411.3</td></tr> 
+<tr><td>1998</td> <td>271.7</td> <td>407.9</td> <td>291.2</td> <td>2308</td> <td>117.7</td> <td>302.9</td> <td>420.6</td></tr> 
+<tr><td colspan="8">Sources: See Text</td></tr>  
+</table>
+<p> &nbsp;</p>
+<p><a name="table2sym" href="#table2anc" id="table2sym">Table 2</a></p>
+<table class="c2" summary="Table 2: Real Estimates of R&amp;D Stocks New Zealand 1962-98">
+ <tr>
+  <th colspan=4>Table 2: Real Estimates of R&amp;D Stocks New Zealand 1962-98</th>
+ </tr>
+ <tr>
+  <td>&nbsp;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>Year end</td><td>Private</td><td>Public</td><td>Total</td>
+ </tr>
+
+ <tr>
+  <td>1961</td><td>170.6</td><td>404.7</td><td>575.3</td>
+ </tr>
+
+ <tr>
+  <td>1962</td><td>187.7</td> <td> 445.2</td><td>632.8</td>
+ </tr>
+ 
+<tr>
+  <td>1963</td><td>203.1</td><td>483.9</td><td>687.1</td>
+ </tr>
+
+ <tr>
+  <td>1964</td><td>221.0</td><td>524.6</td><td>745.6</td>
+ </tr>
+ 
+ <tr>
+  <td>1965</td><td>241.8</td><td>573.5</td><td>815.3</td>
+ </tr>
+ <tr>
+  <td>1966</td><td>265.4</td><td>629.1</td><td>894.5</td>
+ </tr>
+ 
+ <tr>
+  <td>1967</td><td>293.2</td><td>696.6</td><td>989.8</td>
+ </tr>
+ <tr>
+  <td>1968</td><td>321.6</td><td>768.2</td><td>1089.9</td>
+ </tr>
+ <tr>
+  <td>1969</td><td>351.8</td><td>843.1</td><td>1194.9</td>
+ </tr>
+ <tr>
+  <td>1970</td><td>383.0</td><td>925.9</td><td>1308.9</td>
+ </tr>
+ <tr>
+  <td>1971</td><td>416.8</td><td>1015.5</td><td>1432.3</td>
+ </tr>
+ <tr>
+  <td>1972</td><td>452.8</td><td>1112.9</td><td>1565.7</td>
+ </tr>
+ <tr>
+  <td>1973</td><td>492.0</td><td>1225.7</td><td>1717.7</td>
+ </tr>
+ <tr>
+  <td>1974</td><td>533.8</td><td>1355.7</td><td>1889.5</td>
+ </tr>
+ <tr>
+  <td>1975</td><td>584.7</td><td>1506.1</td><td>2090.8</td>
+ </tr>
+ <tr>
+  <td>1976</td><td>634.3</td><td>1654.1</td><td>2288.5</td>
+ </tr>
+ <tr>
+  <td>1977</td><td>672.8</td><td>1762.6</td><td>2435.4</td>
+ </tr>
+ <tr>
+  <td>1978</td><td>716.4</td><td>1881.0</td><td>2597.3</td>
+ </tr>
+ <tr>
+  <td>1979</td><td>766.7</td><td>2013.0</td><td>2779.7</td>
+ </tr>
+ <tr><td>1980</td><td>816.6</td><td>2123.2</td><td>2939.8</td>
+ </tr>
+ <tr>
+  <td>1981</td><td>868.3</td><td>2243.5</td><td>3111.8</td>
+ </tr>
+ <tr>
+  <td>1982</td><td>928.2</td><td>2376.3</td><td>3304.5</td>
+ </tr>
+ <tr>
+  <td>1983</td><td>985.9</td><td>2501.9</td><td>3487.8</td>
+ </tr>
+ <tr>
+  <td>1984</td><td>1043.2</td><td>2607.8</td><td>3651.0</td>
+ </tr>
+ <tr>
+  <td>1985</td><td>1103.1</td><td>2701.8</td><td>3804.9</td>
+ </tr>
+ <tr>
+  <td>1986</td><td>1157.3</td><td>2804.0</td><td>3961.4</td>
+ </tr>
+ <tr>
+  <td>1987</td><td>1211.6</td><td>2874.6</td><td>4086.2</td>
+ </tr>
+ <tr>
+  <td>1988</td><td>1259.8</td><td>2936.9</td><td>4196.7</td>
+ </tr>
+ <tr>
+  <td>1989</td><td>1301.1</td><td>2997.9</td><td>4298.9</td>
+ </tr>
+ <tr>
+  <td>1990</td><td>1343.7</td><td>3060.9</td><td>4404.6</td>
+ </tr>
+ <tr>
+  <td>1991</td><td>1381.4</td><td>3142.0</td><td>4523.4</td>
+ </tr>
+ <tr>
+  <td>1992</td><td>1418.6</td><td>3220.7</td><td>4639.3</td>
+ </tr>
+ <tr>
+   <td>1993</td><td>1455.0</td><td>3314.7</td><td>4769.7</td>
+ </tr>
+ <tr>
+  <td>1994</td><td>1503.1</td><td>3413.8</td><td>4916.9</td>
+ </tr>
+ <tr>
+  <td>1995</td><td>1544.0</td><td>3519.6</td><td>5063.6</td>
+ </tr>
+ <tr>
+  <td>1996</td><td>1578.6</td><td>3631.1</td><td>5209.7</td>
+ </tr>
+ <tr>
+  <td>1997</td><td>1614.9</td><td>3745.7</td><td>5360.5</td>
+ </tr>
+ <tr><td>1998</td><td>1651.9</td><td>3861.3</td><td>5513.1</td>
+ </tr>
+ <tr>
+  <td colspan='4'>Sources see text</td>
+ </tr>
+</table>
+
+</body>
+</html>
