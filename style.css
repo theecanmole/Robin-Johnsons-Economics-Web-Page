@@ -40,24 +40,24 @@ h4 { text-align:center; color:#000000; font-size:105%;font-style:italic;margin-t
 h5 { text-align:center; color:#000000; font-size:100%;font-style:regular;margin-top: 2em;margin-bottom: 0.5em}
 h6 { text-align:left;   color:#000000; font-size:100%;font-style:italic; margin-top: 2em;margin-bottom: 0.5em;}}
 
-p	   {text-align: left;   color:#000000; font-size:100%;font-family: ; font-style:regular; }
-p.center   {text-align: center; color:#000000; font-size:100%;font-style:regular; }
+p	   {text-align: left;   color:#000000; font-size:90%;font-family: ; font-style:regular; }
+p.center   {text-align: center; color:#000000; font-size:90%;font-style:regular; }
 p.by	   {text-align: center; font-weight: bold}
-p.ind 	   {text-indent:1.5em;text-align:left;color:#000000;font-size:100%;font-style:regular; }
-p.lj 	   {text-indent:0; text-align:justify;color:#000000;font-size:100%t;font-style:regular;}
-p.just 	   {text-indent:1.5em;text-align:justify;color:#000000;font-size:100%t;font-style:regular;}
-p.it 	   {text-align: left;color :#000000; font-size:100%;font-style:italic;}
-p.small    {text-align: justify; color:#000000; font-size: 90%; font-style: regular; }
-p.csmall   {text-align: center;color:#000000; font-size: 90%; font-style: regular; }
-p.blocktext{text-align:justify; margin-left: auto; margin-right: auto; width: 90% }
-p.abstract { margin-left: 5%; margin-right: 5%;text-align:justify;font-style:italic; }
-p.r 	   {text-align: right;}
-p.nav      {text-align: center;color:#330099; font-style:regular; font-family: Tahoma, Arial, Helvetica, sans-serif; font-size:100%; line-height: 120%;}
+p.ind 	   {text-indent:1.5em;text-align:left;color:#000000;font-size:90%;font-style:regular; }
+p.lj 	   {text-indent:0; text-align:justify;color:#000000;font-size:90%t;font-style:regular;}
+p.just 	   {text-indent:1.5em;text-align:justify;color:#000000;font-size:90%t;font-style:regular;}
+p.it 	   {text-align: left;color :#000000; font-size:90%;font-style:italic;}
+p.small    {text-align: justify; color:#000000; font-size: 85%; font-style: regular; }
+p.csmall   {text-align: center;color:#000000; font-size: 85%; font-style: regular; }
+p.blocktext{text-align:justify; font-size:90%; margin-left: auto; margin-right: auto; width: 90% }
+p.abstract { margin-left: 5%; font-size:90%; margin-right: 5%;text-align:justify;font-style:italic; }
+p.r 	   {text-align: right;font-size:90%;}
+p.nav      {text-align: center;color:#330099; font-style:regular; font-family: Tahoma, Arial, Helvetica, sans-serif; font-size:90%; line-height: 120%;}
 p.c1 	  {font-weight: bold}
 span.u1   {text-decoration: underline}
-li 	  {color: #000000;font-size:100%;text-align: left;text-indent:0px;}
-tr 	  {text-align: center;}
-tr.left   {text-align: left;}
-tr.und    {padding:5px; text-align: left; border-style: solid; border-width: 1px;}
-tr.sm	  {text-align: center;color:#000000; font-size: 90%; font-style: regular; }
-td.l 	  {text-align: left;}
+li 	  {color: #000000;font-size:90%;text-align: left;text-indent:0px;}
+tr 	  {text-align: center;font-size:90%;}
+tr.left   {text-align: left; font-size:90%;}
+tr.und    {padding:5px; text-align: left; border-style: solid; border-width: 1px;font-size:90%;}
+tr.sm	  {text-align: center;color:#000000; font-size: 90%; font-style: regular; font-size:90%;}
+td.l 	  {text-align: left; font-size:90%;}
